@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "OwR+0oO5DbbeRw9sC5jaoUdHlzwHrSkU8zgbJVZXGw0=",
+  "Source": "AgregaDotNet.Razor.UI",
+  "BasePath": "_content/AgregaDotNet.Razor.UI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AgregaDotNet.Razor.UI\\wwwroot",
+      "Source": "AgregaDotNet.Razor.UI",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\wwwroot\\",
+      "BasePath": "_content/AgregaDotNet.Razor.UI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AgregaDotNet.Razor.UI.styles.css",
+      "SourceId": "AgregaDotNet.Razor.UI",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/AgregaDotNet.Razor.UI",
+      "RelativePath": "AgregaDotNet.Razor.UI.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AgregaDotNet.Razor.UI.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AgregaDotNet.Razor.UI.bundle.scp.css",
+      "SourceId": "AgregaDotNet.Razor.UI",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/AgregaDotNet.Razor.UI",
+      "RelativePath": "AgregaDotNet.Razor.UI.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AgregaDotNet.Razor.UI.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\wwwroot\\background.png",
+      "SourceId": "AgregaDotNet.Razor.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\wwwroot\\",
+      "BasePath": "_content/AgregaDotNet.Razor.UI",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "AgregaDotNet.Razor.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\wwwroot\\",
+      "BasePath": "_content/AgregaDotNet.Razor.UI",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}

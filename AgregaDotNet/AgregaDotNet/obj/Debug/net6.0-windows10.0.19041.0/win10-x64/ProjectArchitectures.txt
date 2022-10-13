@@ -1,0 +1,1 @@
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\AgregaDotNet.csproj;x64

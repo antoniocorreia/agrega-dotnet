@@ -1,0 +1,12 @@
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\bin\Debug\net6.0\AgregaDotNet.Web.Shared.deps.json
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\bin\Debug\net6.0\AgregaDotNet.Web.Shared.dll
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\bin\Debug\net6.0\AgregaDotNet.Web.Shared.pdb
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\obj\Debug\net6.0\AgregaDotNet.Web.Shared.csproj.AssemblyReference.cache
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\obj\Debug\net6.0\AgregaDotNet.Web.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\obj\Debug\net6.0\AgregaDotNet.Web.Shared.AssemblyInfoInputs.cache
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\obj\Debug\net6.0\AgregaDotNet.Web.Shared.AssemblyInfo.cs
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\obj\Debug\net6.0\AgregaDotNet.Web.Shared.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\obj\Debug\net6.0\AgregaDotNet.Web.Shared.dll
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\obj\Debug\net6.0\refint\AgregaDotNet.Web.Shared.dll
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\obj\Debug\net6.0\AgregaDotNet.Web.Shared.pdb
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\obj\Debug\net6.0\ref\AgregaDotNet.Web.Shared.dll

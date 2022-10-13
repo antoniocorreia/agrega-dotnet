@@ -1,0 +1,7 @@
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.UI\obj\Debug\net6.0\AgregaDotNet.UI.csproj.AssemblyReference.cache
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.UI\obj\Debug\net6.0\AgregaDotNet.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.UI\obj\Debug\net6.0\AgregaDotNet.UI.AssemblyInfoInputs.cache
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.UI\obj\Debug\net6.0\AgregaDotNet.UI.AssemblyInfo.cs
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.UI\obj\Debug\net6.0\AgregaDotNet.UI.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.UI\obj\Debug\net6.0\AgregaDotNet.UI.RazorAssemblyInfo.cache
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.UI\obj\Debug\net6.0\AgregaDotNet.UI.RazorAssemblyInfo.cs
