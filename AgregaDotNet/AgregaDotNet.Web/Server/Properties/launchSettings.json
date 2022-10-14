@@ -8,7 +8,7 @@
       }
     },
     "profiles": {
-      "AgregaDotNet.Web.Server": {
+      "AgregaDotNet.Features": {
         "commandName": "Project",
         "dotnetRunMessages": true,
         "launchBrowser": true,

@@ -1,5 +1,5 @@
 ﻿@page "/fetchdata"
-@using AgregaDotNet.Web.Shared
+
 
 
 <PageTitle>Weather forecast</PageTitle>
@@ -27,7 +27,7 @@ else
             @foreach (var forecast in forecasts)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.Date.ToString()</td>
                     <td>@forecast.TemperatureC</td>
                     <td>@forecast.TemperatureF</td>
                     <td>@forecast.Summary</td>
