@@ -7,16 +7,12 @@ C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\bin\Debug\net6.0\AgregaDotNet.Razor.UI.deps.json
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\bin\Debug\net6.0\AgregaDotNet.Razor.UI.dll
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\bin\Debug\net6.0\AgregaDotNet.Razor.UI.pdb
-C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\bin\Debug\net6.0\AgregaDotNet.Web.Shared.dll
-C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\bin\Debug\net6.0\AgregaDotNet.Web.Shared.pdb
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\scopedcss\Component1.razor.rz.scp.css
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\scopedcss\bundle\AgregaDotNet.Razor.UI.styles.css
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\scopedcss\projectbundle\AgregaDotNet.Razor.UI.bundle.scp.css
-C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\AgregaDotNet.Razor.UI.csproj.CopyComplete
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\AgregaDotNet.Razor.UI.dll
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\refint\AgregaDotNet.Razor.UI.dll
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\AgregaDotNet.Razor.UI.pdb
