@@ -1,7 +1,7 @@
 {
   "Version": 1,
-  "Hash": "tXMEYWt0qHVn6zBVyZd5SfwC3N0cHRy7lnEUGo0O2sk=",
-  "Source": "AgregaDotNet",
+  "Hash": "KZTqrUvRXb3QLDtMJEPyxxjjvB95aluO/dO6BlqS8EE=",
+  "Source": "AgregaDotNet.MAUI",
   "BasePath": "/",
   "Mode": "Root",
   "ManifestType": "Build",
@@ -20,15 +20,8 @@
   ],
   "DiscoveryPatterns": [
     {
-      "Name": "AgregaDotNet.Razor.UI\\wwwroot",
-      "Source": "AgregaDotNet.Razor.UI",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\wwwroot\\",
-      "BasePath": "_content/AgregaDotNet.Razor.UI",
-      "Pattern": "**"
-    },
-    {
-      "Name": "AgregaDotNet\\wwwroot",
-      "Source": "AgregaDotNet",
+      "Name": "AgregaDotNet.MAUI\\wwwroot",
+      "Source": "AgregaDotNet.MAUI",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
@@ -36,76 +29,8 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AgregaDotNet.Razor.UI.bundle.scp.css",
-      "SourceId": "AgregaDotNet.Razor.UI",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/AgregaDotNet.Razor.UI",
-      "RelativePath": "AgregaDotNet.Razor.UI.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AgregaDotNet.Razor.UI.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\wwwroot\\background.png",
-      "SourceId": "AgregaDotNet.Razor.UI",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\wwwroot\\",
-      "BasePath": "_content/AgregaDotNet.Razor.UI",
-      "RelativePath": "background.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\background.png"
-    },
-    {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\wwwroot\\exampleJsInterop.js",
-      "SourceId": "AgregaDotNet.Razor.UI",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Razor.UI\\wwwroot\\",
-      "BasePath": "_content/AgregaDotNet.Razor.UI",
-      "RelativePath": "exampleJsInterop.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
-    },
-    {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AgregaDotNet.styles.css",
-      "SourceId": "AgregaDotNet",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
-      "BasePath": "/",
-      "RelativePath": "AgregaDotNet.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AgregaDotNet.styles.css"
-    },
-    {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\app.css",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -122,7 +47,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -139,7 +64,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -156,7 +81,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -173,7 +98,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -190,7 +115,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -207,7 +132,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -224,7 +149,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -241,7 +166,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -258,7 +183,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -275,7 +200,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -292,7 +217,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\css\\open-iconic\\README.md",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -309,7 +234,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\favicon.ico",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",
@@ -326,7 +251,7 @@
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\index.html",
-      "SourceId": "AgregaDotNet",
+      "SourceId": "AgregaDotNet.MAUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet\\wwwroot\\",
       "BasePath": "/",

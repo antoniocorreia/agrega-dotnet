@@ -2,15 +2,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgregaDotNet", "AgregaDotNet\AgregaDotNet.csproj", "{877ED853-3817-4782-AAEB-3799C413BC43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgregaDotNet.MAUI", "AgregaDotNet\AgregaDotNet.MAUI.csproj", "{877ED853-3817-4782-AAEB-3799C413BC43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgregaDotNet.Web.Server", "AgregaDotNet.Web\Server\AgregaDotNet.Web.Server.csproj", "{A51519B8-69AC-4E99-B2D9-06AE5E2DE480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgregaDotNet.Features", "AgregaDotNet.Web\Server\AgregaDotNet.Features.csproj", "{A51519B8-69AC-4E99-B2D9-06AE5E2DE480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgregaDotNet.Web.Client", "AgregaDotNet.Web\Client\AgregaDotNet.Web.Client.csproj", "{5F0209B2-99F4-4BB7-8822-021B60AE14B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgregaDotNet.Web", "AgregaDotNet.Web\Client\AgregaDotNet.Web.csproj", "{5F0209B2-99F4-4BB7-8822-021B60AE14B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgregaDotNet.Web.Shared", "AgregaDotNet.Web\Shared\AgregaDotNet.Web.Shared.csproj", "{6FA766D7-64A7-4C0E-99C2-6A4A5B53240F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgregaDotNet.Razor.UI", "AgregaDotNet.Razor.UI\AgregaDotNet.Razor.UI.csproj", "{3C7B0DC0-682E-4CB6-BC76-845BC18E984A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgregaDotNet.Razor.UI", "AgregaDotNet.Razor.UI\AgregaDotNet.Razor.UI.csproj", "{3C7B0DC0-682E-4CB6-BC76-845BC18E984A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{D4E31E1A-A334-4990-B967-B1E34DA1DCFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,10 +32,6 @@ Global
 		{5F0209B2-99F4-4BB7-8822-021B60AE14B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F0209B2-99F4-4BB7-8822-021B60AE14B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F0209B2-99F4-4BB7-8822-021B60AE14B8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6FA766D7-64A7-4C0E-99C2-6A4A5B53240F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FA766D7-64A7-4C0E-99C2-6A4A5B53240F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FA766D7-64A7-4C0E-99C2-6A4A5B53240F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FA766D7-64A7-4C0E-99C2-6A4A5B53240F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3C7B0DC0-682E-4CB6-BC76-845BC18E984A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C7B0DC0-682E-4CB6-BC76-845BC18E984A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C7B0DC0-682E-4CB6-BC76-845BC18E984A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -43,6 +39,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{877ED853-3817-4782-AAEB-3799C413BC43} = {D4E31E1A-A334-4990-B967-B1E34DA1DCFE}
+		{5F0209B2-99F4-4BB7-8822-021B60AE14B8} = {D4E31E1A-A334-4990-B967-B1E34DA1DCFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
