@@ -8,3 +8,20 @@
 @using Microsoft.JSInterop
 @using AgregaDotNet.Web
 
+
+@using System.ComponentModel.DataAnnotations
+
+@using Microsoft.Extensions.Configuration
+@using Microsoft.AspNetCore.Authorization
+
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+
+@using AgregaDotNet.Features
+@using Sparc.Core
+
+@inject AgregaDotNetApi Api
+@inject Public<AgregaDotNetApi> PublicApi
+
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@attribute [AllowAnonymous]

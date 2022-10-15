@@ -47,15 +47,15 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.AspNetCore.Components.Authorization": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.10, )"
             },
             "NSwag.ApiDescription.Client": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -66,6 +66,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.2, )"
+            },
+            "Sparc.Core": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [

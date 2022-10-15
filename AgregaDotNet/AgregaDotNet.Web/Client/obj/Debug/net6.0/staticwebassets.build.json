@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yxdsnt5JDIzECEK695gFSSJ2Moh6a80PZvCPLm1TXUY=",
+  "Hash": "7jFgLCT4fqvPuPERmq/kiYHCSD055AgNaMrpMFbYvcI=",
   "Source": "AgregaDotNet.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -36,10 +36,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.0\\staticwebassets\\AuthenticationService.js",
+      "Identity": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.10\\staticwebassets\\AuthenticationService.js",
       "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.10\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
       "RelativePath": "AuthenticationService.js",
       "AssetKind": "All",
@@ -50,7 +50,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.0\\staticwebassets\\AuthenticationService.js"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.10\\staticwebassets\\AuthenticationService.js"
     },
     {
       "Identity": "C:\\Users\\anton\\.nuget\\packages\\microsoft.authentication.webassembly.msal\\6.0.0\\staticwebassets\\AuthenticationService.js",
@@ -407,7 +407,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.9\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
@@ -424,7 +424,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.0\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -441,7 +441,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.9\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -458,7 +458,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.9\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -475,7 +475,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.9\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
@@ -492,7 +492,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.0\\lib\\net6.0\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -526,7 +526,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.9\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Authentication.WebAssembly.Msal.dll",
@@ -679,7 +679,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -832,7 +832,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.jsinterop\\6.0.9\\lib\\net6.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\microsoft.jsinterop\\6.0.10\\lib\\net6.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -1002,7 +1002,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\sparc.core\\6.1.1\\lib\\net6.0\\Sparc.Core.dll"
+      "OriginalItemSpec": "C:\\Users\\anton\\.nuget\\packages\\sparc.core\\6.3.0\\lib\\net6.0\\Sparc.Core.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Sparc.Platforms.Web.dll",
@@ -3844,6 +3844,23 @@
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll"
     },
     {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\+IdqIBpO.gz",
+      "SourceId": "AgregaDotNet.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Sparc.Core.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Sparc.Core.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Sparc.Core.dll"
+    },
+    {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\+sgSzv+s.gz",
       "SourceId": "AgregaDotNet.Web",
       "SourceType": "Computed",
@@ -3912,23 +3929,6 @@
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll"
     },
     {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\02peUzaq.gz",
-      "SourceId": "AgregaDotNet.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Sparc.Core.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Sparc.Core.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Sparc.Core.dll"
-    },
-    {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\0iGE7EC+.gz",
       "SourceId": "AgregaDotNet.Web",
       "SourceType": "Computed",
@@ -3978,23 +3978,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.TextWriterTraceListener.dll"
-    },
-    {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\0VWS1wHw.gz",
-      "SourceId": "AgregaDotNet.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\0Y9dVafw.gz",
@@ -4660,23 +4643,6 @@
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.dll"
     },
     {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\bUrcpcnM.gz",
-      "SourceId": "AgregaDotNet.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
-    },
-    {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\bWAdmm4Q.gz",
       "SourceId": "AgregaDotNet.Web",
       "SourceType": "Computed",
@@ -4709,23 +4675,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
-    },
-    {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\bXaqBDg7.gz",
-      "SourceId": "AgregaDotNet.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\c5DRlPDO.gz",
@@ -4879,6 +4828,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.timezones.blat"
+    },
+    {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\dRs9yff4.gz",
+      "SourceId": "AgregaDotNet.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\dUGvd7Fo.gz",
@@ -5238,23 +5204,6 @@
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.X509Certificates.dll"
     },
     {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\Gd0SWql5.gz",
-      "SourceId": "AgregaDotNet.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
-    },
-    {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\GgbfNz57.gz",
       "SourceId": "AgregaDotNet.Web",
       "SourceType": "Computed",
@@ -5374,6 +5323,23 @@
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Web.dll"
     },
     {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\HE2S+a2k.gz",
+      "SourceId": "AgregaDotNet.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+    },
+    {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\hf1JysQV.gz",
       "SourceId": "AgregaDotNet.Web",
       "SourceType": "Computed",
@@ -5389,23 +5355,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
-    },
-    {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\HiLlfuOK.gz",
-      "SourceId": "AgregaDotNet.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\HMb7HFSw.gz",
@@ -5440,23 +5389,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll"
-    },
-    {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\hQAts5Cf.gz",
-      "SourceId": "AgregaDotNet.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\hqdI1W68.gz",
@@ -5593,6 +5525,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebProxy.dll"
+    },
+    {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\Jw+eBCvZ.gz",
+      "SourceId": "AgregaDotNet.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\JZ7KDzBb.gz",
@@ -6122,23 +6071,6 @@
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Json.dll"
     },
     {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\P4S+OLMr.gz",
-      "SourceId": "AgregaDotNet.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\p8QavTjT.gz",
       "SourceId": "AgregaDotNet.Web",
       "SourceType": "Computed",
@@ -6205,6 +6137,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Thread.dll"
+    },
+    {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\pM1cBZWa.gz",
+      "SourceId": "AgregaDotNet.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\pNagCOWf.gz",
@@ -6307,23 +6256,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipes.dll"
-    },
-    {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\QDVDAy7H.gz",
-      "SourceId": "AgregaDotNet.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\Qm4XKx7t.gz",
@@ -6683,6 +6615,23 @@
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.XmlSerializer.dll"
     },
     {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\TmS6jvUQ.gz",
+      "SourceId": "AgregaDotNet.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\tn55K2jA.gz",
       "SourceId": "AgregaDotNet.Web",
       "SourceType": "Computed",
@@ -6800,6 +6749,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.dll"
+    },
+    {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\Uu2ny39S.gz",
+      "SourceId": "AgregaDotNet.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\uUxEviSB.gz",
@@ -6921,23 +6887,6 @@
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.FileVersionInfo.dll"
     },
     {
-      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\vx60MIyE.gz",
-      "SourceId": "AgregaDotNet.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
-    },
-    {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\VyF7jPsK.gz",
       "SourceId": "AgregaDotNet.Web",
       "SourceType": "Computed",
@@ -7006,6 +6955,23 @@
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.dll"
     },
     {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\WRtKyW1L.gz",
+      "SourceId": "AgregaDotNet.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\xcuPmW9M.gz",
       "SourceId": "AgregaDotNet.Web",
       "SourceType": "Computed",
@@ -7055,6 +7021,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Sparc.Platforms.Web.dll"
+    },
+    {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\Xr0rvhjq.gz",
+      "SourceId": "AgregaDotNet.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\xSvglT2p.gz",
@@ -7174,6 +7157,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll"
+    },
+    {
+      "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\yNePO+AQ.gz",
+      "SourceId": "AgregaDotNet.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Client\\obj\\Debug\\net6.0\\build-gz\\YPAl00+k.gz",

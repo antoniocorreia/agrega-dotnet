@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>71AA12809385AB9ABC53B7752E663C6C801F9E6CB2D1A7BB323B2482029446FA</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>4EECFA1C7734C1AC783E8C8E98782EEB3851FC7EB380E7D6F7C3C69107565B29</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>FD56D436-2B24-4594-A036-3AE59B3D367D_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>FD56D436-2B24-4594-A036-3AE59B3D367D_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>FD56D436-2B24-4594-A036-3AE59B3D367D</RegisteredPackageID>
@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-13T23:41:43.454</Modified>
+      <Modified>2022-10-14T17:16:04.116</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-10-13T23:41:42.899</Modified>
+      <Modified>2022-10-14T17:16:03.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AgregaDotNet.runtimeconfig.json">
-      <PackagePath>AgregaDotNet.runtimeconfig.json</PackagePath>
-      <Modified>2022-10-13T23:41:42.823</Modified>
+    <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AgregaDotNet.MAUI.runtimeconfig.json">
+      <PackagePath>AgregaDotNet.MAUI.runtimeconfig.json</PackagePath>
+      <Modified>2022-10-14T17:16:03.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AgregaDotNet.dll">
-      <PackagePath>AgregaDotNet.dll</PackagePath>
-      <Modified>2022-10-13T23:41:41.686</Modified>
+    <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AgregaDotNet.MAUI.dll">
+      <PackagePath>AgregaDotNet.MAUI.dll</PackagePath>
+      <Modified>2022-10-14T17:16:01.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
-      <PackagePath>AgregaDotNet.exe</PackagePath>
-      <Modified>2022-10-13T23:41:41.696</Modified>
+      <PackagePath>AgregaDotNet.MAUI.exe</PackagePath>
+      <Modified>2022-10-14T17:16:01.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.9\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -965,21 +965,25 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-08-17T03:26:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.authorization\6.0.9\lib\net6.0\Microsoft.AspNetCore.Authorization.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.authorization\6.0.7\lib\net6.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
-      <Modified>2022-08-20T02:50:16.000</Modified>
+      <Modified>2022-06-22T22:49:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components\6.0.9\lib\net6.0\Microsoft.AspNetCore.Components.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components\6.0.7\lib\net6.0\Microsoft.AspNetCore.Components.dll">
       <PackagePath>Microsoft.AspNetCore.Components.dll</PackagePath>
-      <Modified>2022-08-20T02:52:20.000</Modified>
+      <Modified>2022-06-22T22:49:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.forms\6.0.9\lib\net6.0\Microsoft.AspNetCore.Components.Forms.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.authorization\6.0.0\lib\net6.0\Microsoft.AspNetCore.Components.Authorization.dll">
+      <PackagePath>Microsoft.AspNetCore.Components.Authorization.dll</PackagePath>
+      <Modified>2021-10-26T21:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.forms\6.0.7\lib\net6.0\Microsoft.AspNetCore.Components.Forms.dll">
       <PackagePath>Microsoft.AspNetCore.Components.Forms.dll</PackagePath>
-      <Modified>2022-08-20T02:52:48.000</Modified>
+      <Modified>2022-06-22T22:49:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.web\6.0.9\lib\net6.0\Microsoft.AspNetCore.Components.Web.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.web\6.0.7\lib\net6.0\Microsoft.AspNetCore.Components.Web.dll">
       <PackagePath>Microsoft.AspNetCore.Components.Web.dll</PackagePath>
-      <Modified>2022-08-20T02:53:28.000</Modified>
+      <Modified>2022-06-22T22:49:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.webview\6.0.7\lib\net6.0\Microsoft.AspNetCore.Components.WebView.dll">
       <PackagePath>Microsoft.AspNetCore.Components.WebView.dll</PackagePath>
@@ -989,9 +993,9 @@
       <PackagePath>Microsoft.AspNetCore.Components.WebView.Maui.dll</PackagePath>
       <Modified>2022-07-25T02:21:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.metadata\6.0.9\lib\net6.0\Microsoft.AspNetCore.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.metadata\6.0.7\lib\net6.0\Microsoft.AspNetCore.Metadata.dll">
       <PackagePath>Microsoft.AspNetCore.Metadata.dll</PackagePath>
-      <Modified>2022-08-20T02:50:10.000</Modified>
+      <Modified>2022-06-22T22:47:56.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -1045,9 +1049,9 @@
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
       <Modified>2021-10-22T23:50:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.2\lib\net6.0\Microsoft.Extensions.Logging.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.1\lib\net6.0\Microsoft.Extensions.Logging.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
-      <Modified>2022-08-19T19:56:40.000</Modified>
+      <Modified>2022-02-24T00:12:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.options\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Options.dll">
       <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
@@ -1061,9 +1065,9 @@
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
       <Modified>2022-04-28T15:53:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.jsinterop\6.0.9\lib\net6.0\Microsoft.JSInterop.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.jsinterop\6.0.7\lib\net6.0\Microsoft.JSInterop.dll">
       <PackagePath>Microsoft.JSInterop.dll</PackagePath>
-      <Modified>2022-08-20T02:52:16.000</Modified>
+      <Modified>2022-06-22T22:48:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.maui.graphics\6.0.403\lib\net6.0-windows10.0.18362\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
@@ -1117,6 +1121,10 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-04-22T01:06:16.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\system.io.pipelines\6.0.3\lib\net6.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
       <Modified>2022-04-13T17:49:36.000</Modified>
@@ -1131,19 +1139,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\bin\Debug\net6.0\AgregaDotNet.Razor.UI.dll">
       <PackagePath>AgregaDotNet.Razor.UI.dll</PackagePath>
-      <Modified>2022-10-13T23:34:59.089</Modified>
+      <Modified>2022-10-14T17:09:31.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Shared\bin\Debug\net6.0\AgregaDotNet.Web.Shared.dll">
-      <PackagePath>AgregaDotNet.Web.Shared.dll</PackagePath>
-      <Modified>2022-10-13T23:31:12.201</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\AgregaDotNet.deps.json">
-      <PackagePath>AgregaDotNet.deps.json</PackagePath>
-      <Modified>2022-10-13T23:41:43.255</Modified>
+    <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\AgregaDotNet.MAUI.deps.json">
+      <PackagePath>AgregaDotNet.MAUI.deps.json</PackagePath>
+      <Modified>2022-10-14T17:16:03.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\staticwebassets.development.json">
       <PackagePath>AgregaDotNet.Razor.UI.staticwebassets.runtime.json</PackagePath>
-      <Modified>2022-10-13T23:31:13.042</Modified>
+      <Modified>2022-10-14T17:09:32.044</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.486\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1163,7 +1167,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\obj\Debug\net6.0\scopedcss\projectbundle\AgregaDotNet.Razor.UI.bundle.scp.css">
       <PackagePath>wwwroot\_content\AgregaDotNet.Razor.UI\AgregaDotNet.Razor.UI.bundle.scp.css</PackagePath>
-      <Modified>2022-10-13T23:31:13.263</Modified>
+      <Modified>2022-10-14T17:09:32.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Razor.UI\wwwroot\background.png">
       <PackagePath>wwwroot\_content\AgregaDotNet.Razor.UI\background.png</PackagePath>
@@ -1173,9 +1177,9 @@
       <PackagePath>wwwroot\_content\AgregaDotNet.Razor.UI\exampleJsInterop.js</PackagePath>
       <Modified>2022-10-13T23:22:24.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\AgregaDotNet.styles.css">
-      <PackagePath>wwwroot\AgregaDotNet.styles.css</PackagePath>
-      <Modified>2022-10-13T23:40:23.888</Modified>
+    <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\AgregaDotNet.MAUI.styles.css">
+      <PackagePath>wwwroot\AgregaDotNet.MAUI.styles.css</PackagePath>
+      <Modified>2022-10-14T17:07:13.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
