@@ -1,1 +1,1 @@
-C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\AgregaDotNet.csproj;x64
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\AgregaDotNet.MAUI.csproj;x64

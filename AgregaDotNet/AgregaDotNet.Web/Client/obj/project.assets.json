@@ -27,10 +27,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authorization/6.0.9": {
+      "Microsoft.AspNetCore.Authorization/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "6.0.9",
+          "Microsoft.AspNetCore.Metadata": "6.0.10",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
           "Microsoft.Extensions.Options": "6.0.0"
         },
@@ -45,11 +45,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components/6.0.9": {
+      "Microsoft.AspNetCore.Components/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.9",
-          "Microsoft.AspNetCore.Components.Analyzers": "6.0.9"
+          "Microsoft.AspNetCore.Authorization": "6.0.10",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.10"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.dll": {
@@ -62,17 +62,17 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/6.0.9": {
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.10": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Authorization/6.0.0": {
+      "Microsoft.AspNetCore.Components.Authorization/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.0",
-          "Microsoft.AspNetCore.Components": "6.0.0"
+          "Microsoft.AspNetCore.Authorization": "6.0.10",
+          "Microsoft.AspNetCore.Components": "6.0.10"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {
@@ -85,10 +85,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/6.0.9": {
+      "Microsoft.AspNetCore.Components.Forms/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.9"
+          "Microsoft.AspNetCore.Components": "6.0.10"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {
@@ -101,13 +101,13 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/6.0.9": {
+      "Microsoft.AspNetCore.Components.Web/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.9",
-          "Microsoft.AspNetCore.Components.Forms": "6.0.9",
-          "Microsoft.Extensions.DependencyInjection": "6.0.0",
-          "Microsoft.JSInterop": "6.0.9",
+          "Microsoft.AspNetCore.Components": "6.0.10",
+          "Microsoft.AspNetCore.Components.Forms": "6.0.10",
+          "Microsoft.Extensions.DependencyInjection": "6.0.1",
+          "Microsoft.JSInterop": "6.0.10",
           "System.IO.Pipelines": "6.0.3"
         },
         "compile": {
@@ -144,11 +144,11 @@
           "build/net6.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.0": {
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Authorization": "6.0.0",
-          "Microsoft.AspNetCore.Components.Web": "6.0.0"
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.10",
+          "Microsoft.AspNetCore.Components.Web": "6.0.10"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": {
@@ -167,13 +167,13 @@
           "buildMultiTargeting/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.9": {
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Metadata/6.0.9": {
+      "Microsoft.AspNetCore.Metadata/6.0.10": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
@@ -208,13 +208,15 @@
           "buildMultiTargeting/Microsoft.Authentication.WebAssembly.Msal.props": {}
         }
       },
-      "Microsoft.Extensions.ApiDescription.Client/3.0.0": {
+      "Microsoft.Extensions.ApiDescription.Client/6.0.3": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Microsoft.Extensions.ApiDescription.Client.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Client.targets": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/_._": {}
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Client.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Client.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.0": {
@@ -306,7 +308,7 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "Microsoft.Extensions.DependencyInjection/6.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
@@ -489,7 +491,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.JSInterop/6.0.9": {
+      "Microsoft.JSInterop/6.0.10": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.JSInterop.dll": {
@@ -531,23 +533,24 @@
           }
         }
       },
-      "NSwag.ApiDescription.Client/13.15.10": {
+      "NSwag.ApiDescription.Client/13.16.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.ApiDescription.Client": "3.0.0",
-          "NSwag.MSBuild": "13.14.5"
+          "Microsoft.Extensions.ApiDescription.Client": "6.0.3",
+          "NSwag.MSBuild": "13.16.1"
         },
         "build": {
-          "build/_._": {}
+          "build/NSwag.ApiDescription.Client.props": {},
+          "build/NSwag.ApiDescription.Client.targets": {}
         }
       },
-      "NSwag.MSBuild/13.14.5": {
+      "NSwag.MSBuild/13.16.1": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/NSwag.MSBuild.props": {}
         },
         "buildMultiTargeting": {
-          "buildCrossTargeting/_._": {}
+          "buildCrossTargeting/NSwag.MSBuild.props": {}
         }
       },
       "Sparc.Authentication.Client/6.0.0": {
@@ -564,7 +567,7 @@
           "lib/net6.0/Sparc.Authentication.Client.dll": {}
         }
       },
-      "Sparc.Core/6.1.1": {
+      "Sparc.Core/6.3.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Sparc.Core.dll": {}
@@ -714,10 +717,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.0",
-          "Microsoft.AspNetCore.Components.Authorization": "6.0.0",
-          "Microsoft.AspNetCore.Components.Web": "6.0.0",
-          "Newtonsoft.Json": "12.0.2"
+          "Microsoft.AspNetCore.Components": "6.0.10",
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.10",
+          "Microsoft.AspNetCore.Components.Web": "6.0.10",
+          "Newtonsoft.Json": "12.0.2",
+          "Sparc.Core": "6.3.0"
         },
         "compile": {
           "bin/placeholder/AgregaDotNet.Razor.UI.dll": {}
@@ -753,10 +757,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authorization/6.0.9": {
+      "Microsoft.AspNetCore.Authorization/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "6.0.9",
+          "Microsoft.AspNetCore.Metadata": "6.0.10",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
           "Microsoft.Extensions.Options": "6.0.0"
         },
@@ -771,11 +775,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components/6.0.9": {
+      "Microsoft.AspNetCore.Components/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.9",
-          "Microsoft.AspNetCore.Components.Analyzers": "6.0.9"
+          "Microsoft.AspNetCore.Authorization": "6.0.10",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.10"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.dll": {
@@ -788,17 +792,17 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/6.0.9": {
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.10": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Authorization/6.0.0": {
+      "Microsoft.AspNetCore.Components.Authorization/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.0",
-          "Microsoft.AspNetCore.Components": "6.0.0"
+          "Microsoft.AspNetCore.Authorization": "6.0.10",
+          "Microsoft.AspNetCore.Components": "6.0.10"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {
@@ -811,10 +815,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/6.0.9": {
+      "Microsoft.AspNetCore.Components.Forms/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.9"
+          "Microsoft.AspNetCore.Components": "6.0.10"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {
@@ -827,13 +831,13 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/6.0.9": {
+      "Microsoft.AspNetCore.Components.Web/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.9",
-          "Microsoft.AspNetCore.Components.Forms": "6.0.9",
-          "Microsoft.Extensions.DependencyInjection": "6.0.0",
-          "Microsoft.JSInterop": "6.0.9",
+          "Microsoft.AspNetCore.Components": "6.0.10",
+          "Microsoft.AspNetCore.Components.Forms": "6.0.10",
+          "Microsoft.Extensions.DependencyInjection": "6.0.1",
+          "Microsoft.JSInterop": "6.0.10",
           "System.IO.Pipelines": "6.0.3"
         },
         "compile": {
@@ -870,11 +874,11 @@
           "build/net6.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.0": {
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Authorization": "6.0.0",
-          "Microsoft.AspNetCore.Components.Web": "6.0.0"
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.10",
+          "Microsoft.AspNetCore.Components.Web": "6.0.10"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": {
@@ -893,13 +897,13 @@
           "buildMultiTargeting/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.9": {
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Metadata/6.0.9": {
+      "Microsoft.AspNetCore.Metadata/6.0.10": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
@@ -934,13 +938,15 @@
           "buildMultiTargeting/Microsoft.Authentication.WebAssembly.Msal.props": {}
         }
       },
-      "Microsoft.Extensions.ApiDescription.Client/3.0.0": {
+      "Microsoft.Extensions.ApiDescription.Client/6.0.3": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Microsoft.Extensions.ApiDescription.Client.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Client.targets": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/_._": {}
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Client.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Client.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.0": {
@@ -1032,7 +1038,7 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "Microsoft.Extensions.DependencyInjection/6.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
@@ -1215,7 +1221,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.JSInterop/6.0.9": {
+      "Microsoft.JSInterop/6.0.10": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.JSInterop.dll": {
@@ -1257,23 +1263,24 @@
           }
         }
       },
-      "NSwag.ApiDescription.Client/13.15.10": {
+      "NSwag.ApiDescription.Client/13.16.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.ApiDescription.Client": "3.0.0",
-          "NSwag.MSBuild": "13.14.5"
+          "Microsoft.Extensions.ApiDescription.Client": "6.0.3",
+          "NSwag.MSBuild": "13.16.1"
         },
         "build": {
-          "build/_._": {}
+          "build/NSwag.ApiDescription.Client.props": {},
+          "build/NSwag.ApiDescription.Client.targets": {}
         }
       },
-      "NSwag.MSBuild/13.14.5": {
+      "NSwag.MSBuild/13.16.1": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/NSwag.MSBuild.props": {}
         },
         "buildMultiTargeting": {
-          "buildCrossTargeting/_._": {}
+          "buildCrossTargeting/NSwag.MSBuild.props": {}
         }
       },
       "Sparc.Authentication.Client/6.0.0": {
@@ -1290,7 +1297,7 @@
           "lib/net6.0/Sparc.Authentication.Client.dll": {}
         }
       },
-      "Sparc.Core/6.1.1": {
+      "Sparc.Core/6.3.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Sparc.Core.dll": {}
@@ -1434,10 +1441,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.0",
-          "Microsoft.AspNetCore.Components.Authorization": "6.0.0",
-          "Microsoft.AspNetCore.Components.Web": "6.0.0",
-          "Newtonsoft.Json": "12.0.2"
+          "Microsoft.AspNetCore.Components": "6.0.10",
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.10",
+          "Microsoft.AspNetCore.Components.Web": "6.0.10",
+          "Newtonsoft.Json": "12.0.2",
+          "Sparc.Core": "6.3.0"
         },
         "compile": {
           "bin/placeholder/AgregaDotNet.Razor.UI.dll": {}
@@ -1488,10 +1496,10 @@
         "lib/netstandard2.0/IdentityModel.xml"
       ]
     },
-    "Microsoft.AspNetCore.Authorization/6.0.9": {
-      "sha512": "paH0Zgo6yWMhVwaWZ0wqyY5az7zv89C5AlRfrpAAjAyKLvgBuTIQIK9kPSIGAoOhvt56fxcDTLws3cckauWOWw==",
+    "Microsoft.AspNetCore.Authorization/6.0.10": {
+      "sha512": "WzMlSLdNdBttOGU/aPBjq6tre/N1fPySHkbv8hsEkE40NIU8vuuIRwUJRe9QCTKlwM9apUbSzhjMBdOhp+15vQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authorization/6.0.9",
+      "path": "microsoft.aspnetcore.authorization/6.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1503,14 +1511,14 @@
         "lib/net6.0/Microsoft.AspNetCore.Authorization.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.6.0.9.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components/6.0.9": {
-      "sha512": "ueQkgDVg30fWLRrHiK/yaDEH2J8UUZ8+5KykWTupiHoLxHBcdx60lxelmJWrLzHsiA/1aoZMhPF2r5sGDPd8nw==",
+    "Microsoft.AspNetCore.Components/6.0.10": {
+      "sha512": "/HXMFugfVysPPoBEiLKUrJglnQeGFibKkb9IKF6asJGkO4LCv5eTObElG0oRTNp8pDfbf7dLOXK9HNq2hvY1gw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components/6.0.9",
+      "path": "microsoft.aspnetcore.components/6.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1518,14 +1526,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net6.0/Microsoft.AspNetCore.Components.dll",
         "lib/net6.0/Microsoft.AspNetCore.Components.xml",
-        "microsoft.aspnetcore.components.6.0.9.nupkg.sha512",
+        "microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/6.0.9": {
-      "sha512": "yVI41+FbLzNhBUEPWNTEwFCz3+JkzCfiD1K+8MLFa66+yDSDWBUbzXtTxzVb2I8RstANXalR/6BFUvmdYjruAQ==",
+    "Microsoft.AspNetCore.Components.Analyzers/6.0.10": {
+      "sha512": "krpTqAgPWTPTHYVW3EK8iJpKoJlauDt7oYeSasVGYCb7PMEPd7KfpTJR0efJZN4m4oVHViHXEcFZuWD7dIiAKA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/6.0.9",
+      "path": "microsoft.aspnetcore.components.analyzers/6.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1534,14 +1542,14 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.6.0.9.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.6.0.10.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Authorization/6.0.0": {
-      "sha512": "AdrLj0S71GgcGUm7MMzwjzpkmAO044nFhzmvT+x/acB0HNyolWo6jMZBXxEm93iQDSeFlfRQGsw+bD+6mdMhYg==",
+    "Microsoft.AspNetCore.Components.Authorization/6.0.10": {
+      "sha512": "pd9jT42tZAbLC5zW16jdGRLSmo9VPQG9drpFgDeEeuTC5IuQhTXLLXlhj3OSE3vzRD/+DnKUMxbjlXEuQMojaw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.authorization/6.0.0",
+      "path": "microsoft.aspnetcore.components.authorization/6.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1549,14 +1557,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll",
         "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.xml",
-        "microsoft.aspnetcore.components.authorization.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.authorization.6.0.10.nupkg.sha512",
         "microsoft.aspnetcore.components.authorization.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Forms/6.0.9": {
-      "sha512": "uPFeDc3Ur8lReE6J5k+8Y+8xIhXiUHKBB3w2IV37bBh2vOSTpoMq9RkcKC8omeulqGRD4iPyzGxEA7OIIXqC0A==",
+    "Microsoft.AspNetCore.Components.Forms/6.0.10": {
+      "sha512": "rAJm3ss1RQKayO/KPNNa5fP8iLzdK1fdumVT3Kgj4xxRTZXIzHM+oDdmunVHZKvK8qFg/iFbzMdsfZJBT94uGA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.forms/6.0.9",
+      "path": "microsoft.aspnetcore.components.forms/6.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1564,14 +1572,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll",
         "lib/net6.0/Microsoft.AspNetCore.Components.Forms.xml",
-        "microsoft.aspnetcore.components.forms.6.0.9.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.6.0.10.nupkg.sha512",
         "microsoft.aspnetcore.components.forms.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Web/6.0.9": {
-      "sha512": "fNb8IGYDYYaWrt20ObNhwXkh5AhYyiphrIZDpNegvbtLtlJMsz2OaJztgpVDGNLmb7x20TQ3GlnGQiqHChcmeA==",
+    "Microsoft.AspNetCore.Components.Web/6.0.10": {
+      "sha512": "X1TrvIZ6NJWXgy6SsmK4IKphylIwCFU/EMEdM80AJCjU5h4Ui3HufVonzGTGrsMjIURgqihXBqjUAuzOjIaIlA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.web/6.0.9",
+      "path": "microsoft.aspnetcore.components.web/6.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1579,7 +1587,7 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll",
         "lib/net6.0/Microsoft.AspNetCore.Components.Web.xml",
-        "microsoft.aspnetcore.components.web.6.0.9.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.6.0.10.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
       ]
     },
@@ -1600,10 +1608,10 @@
         "microsoft.aspnetcore.components.webassembly.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.0": {
-      "sha512": "S0Asj9Bdj5bqmmX8nR8wGzVNJo8UiKLKkg7UJm58BUOMCXKcL0rvU8lYcX1sB/wxyZ2f7Y+YznLTCQ0doMkZmg==",
+    "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.10": {
+      "sha512": "S7GDcgzV4enUhkmeoTG7XAo+GoJbU8XqKjHEgv2kcLG/sp+M93CKXyT4psKFcuCvA1QyOob6cPgnGbj4hvLsUA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.webassembly.authentication/6.0.0",
+      "path": "microsoft.aspnetcore.components.webassembly.authentication/6.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1615,15 +1623,15 @@
         "buildTransitive/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props",
         "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
         "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.xml",
-        "microsoft.aspnetcore.components.webassembly.authentication.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.authentication.6.0.10.nupkg.sha512",
         "microsoft.aspnetcore.components.webassembly.authentication.nuspec",
         "staticwebassets/AuthenticationService.js"
       ]
     },
-    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.9": {
-      "sha512": "eVsHOOpHILosJVcAxCDUk6rzAIUV81O+Wqo6l/toaf23mqMbLEv9/L2yQSFnpInDxOAeljE1SkyfbwNwToyUcg==",
+    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.0": {
+      "sha512": "SNnACFWaRSx5o0vnoU2pBTKgfv5LzlwC07H2nBTpq23hj0lZZS1XBiU8heCVxGKsmLYMb+wvxZgyKDICFAZvWQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.webassembly.devserver/6.0.9",
+      "path": "microsoft.aspnetcore.components.webassembly.devserver/6.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1631,7 +1639,7 @@
         "Icon.png",
         "THIRD-PARTY-NOTICES.txt",
         "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets",
-        "microsoft.aspnetcore.components.webassembly.devserver.6.0.9.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.devserver.6.0.0.nupkg.sha512",
         "microsoft.aspnetcore.components.webassembly.devserver.nuspec",
         "tools/BlazorDebugProxy/BrowserDebugHost.dll",
         "tools/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json",
@@ -1742,10 +1750,10 @@
         "tools/x86/aspnetcorev2_inprocess.dll"
       ]
     },
-    "Microsoft.AspNetCore.Metadata/6.0.9": {
-      "sha512": "cQET2vOT72zW+kOd71KQE80qBSQJEnWs86HfJEZPzHgTfn/o5UyzHHRosP1EQX8iPQ9ESxmd+AJedggkSxN93Q==",
+    "Microsoft.AspNetCore.Metadata/6.0.10": {
+      "sha512": "s+tychZiXgodo92edHj1+hyg3MCu/32FriN4UcOsoaSLKlxNfaqyiaPBqqlZH2ArWOz3c8AyuMZR3qy0bOcycQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.metadata/6.0.9",
+      "path": "microsoft.aspnetcore.metadata/6.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1757,7 +1765,7 @@
         "lib/net6.0/Microsoft.AspNetCore.Metadata.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.6.0.9.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.6.0.10.nupkg.sha512",
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
@@ -1781,19 +1789,20 @@
         "staticwebassets/AuthenticationService.js"
       ]
     },
-    "Microsoft.Extensions.ApiDescription.Client/3.0.0": {
-      "sha512": "EpGGEoBelJtt4IN32O02D+Lb4DjSFB1GUoItLa8GDzM4x/cqpCAKn5tRb6Fn7U3/rGlWjfLMGXW/t9zvYmPQtA==",
+    "Microsoft.Extensions.ApiDescription.Client/6.0.3": {
+      "sha512": "sYfFpbRgYDeqku+sXDYdAg/b8jMllnCRmDf5ntzDoJbjFHDlx4WWRDZZhzoUcZKMvH+IQLDpc5BflO4MxrA56A==",
       "type": "package",
-      "path": "microsoft.extensions.apidescription.client/3.0.0",
+      "path": "microsoft.extensions.apidescription.client/6.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "build/Microsoft.Extensions.ApiDescription.Client.props",
         "build/Microsoft.Extensions.ApiDescription.Client.targets",
         "build/OpenApiItemsSchema.xaml",
         "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Client.props",
         "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Client.targets",
-        "microsoft.extensions.apidescription.client.3.0.0.nupkg.sha512",
+        "microsoft.extensions.apidescription.client.6.0.3.nupkg.sha512",
         "microsoft.extensions.apidescription.client.nuspec",
         "tasks/netstandard2.0/Microsoft.Extensions.ApiDescription.Client.deps.json",
         "tasks/netstandard2.0/Microsoft.Extensions.ApiDescription.Client.dll"
@@ -1896,10 +1905,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/6.0.0": {
-      "sha512": "k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+    "Microsoft.Extensions.DependencyInjection/6.0.1": {
+      "sha512": "vWXPg3HJQIpZkENn1KWq8SfbqVujVD7S7vIAyFXXqK5xkf1Vho+vG0bLBCHxU36lD1cLLtmGpfYf0B3MYFi9tQ==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "path": "microsoft.extensions.dependencyinjection/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1916,7 +1925,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2153,10 +2162,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.JSInterop/6.0.9": {
-      "sha512": "6SRDR3QEhnT3WuNittrXn0yKM2a2J7E22GAdSuKzC8tPcAjA25tHJeyFcRIJFZBmsIE0tuJzXopLrvG4sTacAg==",
+    "Microsoft.JSInterop/6.0.10": {
+      "sha512": "t/63fnJiLzw2hKsReEAej0oSaHx2L/9wn3Wczip89RX+/FuPopssenWHtj9o0oJedbWgLuu6AbMJed/aIYLnxA==",
       "type": "package",
-      "path": "microsoft.jsinterop/6.0.9",
+      "path": "microsoft.jsinterop/6.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2164,7 +2173,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.JSInterop.dll",
         "lib/net6.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.6.0.9.nupkg.sha512",
+        "microsoft.jsinterop.6.0.10.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
     },
@@ -2210,32 +2219,32 @@
         "packageIcon.png"
       ]
     },
-    "NSwag.ApiDescription.Client/13.15.10": {
-      "sha512": "SYV1qxRxIuopuICOpr1WXI2rzW1P7iRHIrE5JULWlTV0OCK0JDgUAVswgLk2olS4chVgoDoh0W010OVGfVz15g==",
+    "NSwag.ApiDescription.Client/13.16.1": {
+      "sha512": "GEqnUzOdBv1QpncPoZGfaRRIFcWI/4PoFQ47KWrOrIRJtOY0+FGvm/181nrMcSJbxW3eEnHllTgywLRpesXdIQ==",
       "type": "package",
-      "path": "nswag.apidescription.client/13.15.10",
+      "path": "nswag.apidescription.client/13.16.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/NSwag.ApiDescription.Client.props",
         "build/NSwag.ApiDescription.Client.targets",
-        "nswag.apidescription.client.13.15.10.nupkg.sha512",
+        "nswag.apidescription.client.13.16.1.nupkg.sha512",
         "nswag.apidescription.client.nuspec"
       ]
     },
-    "NSwag.MSBuild/13.14.5": {
-      "sha512": "8p+dDmxPbjTtP4+qd3q/vC+beoXzorfIIi4eqxEXqSZXqUs8KVPdrUwtpKXOINmDxQnN2QmsIgQusf9KeBnxGw==",
+    "NSwag.MSBuild/13.16.1": {
+      "sha512": "P5qkQRW7Vfu3YvbFs5K92/vsId1eXgL6VF/es9xugELKQZuhDMUwY9TkmkPMloEuEnLeau9qt7fLbxxP/ChQpg==",
       "type": "package",
-      "path": "nswag.msbuild/13.14.5",
+      "path": "nswag.msbuild/13.16.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/NSwag.MSBuild.props",
         "buildCrossTargeting/NSwag.MSBuild.props",
-        "nswag.msbuild.13.14.5.nupkg.sha512",
+        "nswag.msbuild.13.16.1.nupkg.sha512",
         "nswag.msbuild.nuspec",
-        "tools/Net50/DotLiquid.dll",
+        "tools/Net50/Fluid.dll",
         "tools/Net50/Microsoft.AspNetCore.JsonPatch.dll",
         "tools/Net50/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "tools/Net50/Microsoft.AspNetCore.TestHost.dll",
@@ -2250,7 +2259,6 @@
         "tools/Net50/NSwag.Annotations.dll",
         "tools/Net50/NSwag.Annotations.pdb",
         "tools/Net50/NSwag.Annotations.xml",
-        "tools/Net50/NSwag.AspNetCore.Launcher.deps.json",
         "tools/Net50/NSwag.AspNetCore.Launcher.dll",
         "tools/Net50/NSwag.AspNetCore.Launcher.exe",
         "tools/Net50/NSwag.AspNetCore.Launcher.pdb",
@@ -2275,7 +2283,6 @@
         "tools/Net50/NSwag.Core.Yaml.dll",
         "tools/Net50/NSwag.Core.Yaml.pdb",
         "tools/Net50/NSwag.Core.dll",
-        "tools/Net50/NSwag.Core.dll.config",
         "tools/Net50/NSwag.Core.pdb",
         "tools/Net50/NSwag.Core.xml",
         "tools/Net50/NSwag.Generation.AspNetCore.dll",
@@ -2290,14 +2297,16 @@
         "tools/Net50/Namotion.Reflection.dll",
         "tools/Net50/Newtonsoft.Json.Bson.dll",
         "tools/Net50/Newtonsoft.Json.dll",
+        "tools/Net50/Parlot.dll",
+        "tools/Net50/System.Text.Encodings.Web.dll",
+        "tools/Net50/TimeZoneConverter.dll",
         "tools/Net50/YamlDotNet.dll",
         "tools/Net50/dotnet-nswag.deps.json",
         "tools/Net50/dotnet-nswag.dll",
         "tools/Net50/dotnet-nswag.exe",
         "tools/Net50/dotnet-nswag.pdb",
         "tools/Net50/dotnet-nswag.runtimeconfig.json",
-        "tools/Net50/it/DotLiquid.resources.dll",
-        "tools/Net60/DotLiquid.dll",
+        "tools/Net60/Fluid.dll",
         "tools/Net60/Microsoft.AspNetCore.JsonPatch.dll",
         "tools/Net60/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "tools/Net60/Microsoft.AspNetCore.TestHost.dll",
@@ -2312,7 +2321,6 @@
         "tools/Net60/NSwag.Annotations.dll",
         "tools/Net60/NSwag.Annotations.pdb",
         "tools/Net60/NSwag.Annotations.xml",
-        "tools/Net60/NSwag.AspNetCore.Launcher.deps.json",
         "tools/Net60/NSwag.AspNetCore.Launcher.dll",
         "tools/Net60/NSwag.AspNetCore.Launcher.exe",
         "tools/Net60/NSwag.AspNetCore.Launcher.pdb",
@@ -2337,7 +2345,6 @@
         "tools/Net60/NSwag.Core.Yaml.dll",
         "tools/Net60/NSwag.Core.Yaml.pdb",
         "tools/Net60/NSwag.Core.dll",
-        "tools/Net60/NSwag.Core.dll.config",
         "tools/Net60/NSwag.Core.pdb",
         "tools/Net60/NSwag.Core.xml",
         "tools/Net60/NSwag.Generation.AspNetCore.dll",
@@ -2352,14 +2359,15 @@
         "tools/Net60/Namotion.Reflection.dll",
         "tools/Net60/Newtonsoft.Json.Bson.dll",
         "tools/Net60/Newtonsoft.Json.dll",
+        "tools/Net60/Parlot.dll",
+        "tools/Net60/TimeZoneConverter.dll",
         "tools/Net60/YamlDotNet.dll",
         "tools/Net60/dotnet-nswag.deps.json",
         "tools/Net60/dotnet-nswag.dll",
         "tools/Net60/dotnet-nswag.exe",
         "tools/Net60/dotnet-nswag.pdb",
         "tools/Net60/dotnet-nswag.runtimeconfig.json",
-        "tools/Net60/it/DotLiquid.resources.dll",
-        "tools/NetCore21/DotLiquid.dll",
+        "tools/NetCore21/Fluid.dll",
         "tools/NetCore21/Microsoft.AspNetCore.Authentication.Abstractions.dll",
         "tools/NetCore21/Microsoft.AspNetCore.Authentication.Core.dll",
         "tools/NetCore21/Microsoft.AspNetCore.Authorization.Policy.dll",
@@ -2393,6 +2401,7 @@
         "tools/NetCore21/Microsoft.AspNetCore.TestHost.dll",
         "tools/NetCore21/Microsoft.AspNetCore.WebUtilities.dll",
         "tools/NetCore21/Microsoft.AspNetCore.dll",
+        "tools/NetCore21/Microsoft.Bcl.AsyncInterfaces.dll",
         "tools/NetCore21/Microsoft.DotNet.PlatformAbstractions.dll",
         "tools/NetCore21/Microsoft.Extensions.Configuration.Abstractions.dll",
         "tools/NetCore21/Microsoft.Extensions.Configuration.Binder.dll",
@@ -2452,7 +2461,6 @@
         "tools/NetCore21/NSwag.Core.Yaml.dll",
         "tools/NetCore21/NSwag.Core.Yaml.pdb",
         "tools/NetCore21/NSwag.Core.dll",
-        "tools/NetCore21/NSwag.Core.dll.config",
         "tools/NetCore21/NSwag.Core.pdb",
         "tools/NetCore21/NSwag.Core.xml",
         "tools/NetCore21/NSwag.Generation.AspNetCore.dll",
@@ -2466,20 +2474,22 @@
         "tools/NetCore21/NSwag.Generation.xml",
         "tools/NetCore21/Namotion.Reflection.dll",
         "tools/NetCore21/Newtonsoft.Json.dll",
+        "tools/NetCore21/Parlot.dll",
         "tools/NetCore21/System.Diagnostics.DiagnosticSource.dll",
         "tools/NetCore21/System.IO.Pipelines.dll",
         "tools/NetCore21/System.Runtime.CompilerServices.Unsafe.dll",
         "tools/NetCore21/System.Security.Principal.Windows.dll",
         "tools/NetCore21/System.Text.Encodings.Web.dll",
+        "tools/NetCore21/System.Text.Json.dll",
+        "tools/NetCore21/TimeZoneConverter.dll",
         "tools/NetCore21/YamlDotNet.dll",
         "tools/NetCore21/dotnet-nswag.deps.json",
         "tools/NetCore21/dotnet-nswag.dll",
         "tools/NetCore21/dotnet-nswag.pdb",
         "tools/NetCore21/dotnet-nswag.runtimeconfig.json",
-        "tools/NetCore21/it/DotLiquid.resources.dll",
         "tools/NetCore21/runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
         "tools/NetCore21/runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
-        "tools/NetCore31/DotLiquid.dll",
+        "tools/NetCore31/Fluid.dll",
         "tools/NetCore31/Microsoft.AspNetCore.JsonPatch.dll",
         "tools/NetCore31/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "tools/NetCore31/Microsoft.AspNetCore.TestHost.dll",
@@ -2494,7 +2504,6 @@
         "tools/NetCore31/NSwag.Annotations.dll",
         "tools/NetCore31/NSwag.Annotations.pdb",
         "tools/NetCore31/NSwag.Annotations.xml",
-        "tools/NetCore31/NSwag.AspNetCore.Launcher.deps.json",
         "tools/NetCore31/NSwag.AspNetCore.Launcher.dll",
         "tools/NetCore31/NSwag.AspNetCore.Launcher.exe",
         "tools/NetCore31/NSwag.AspNetCore.Launcher.pdb",
@@ -2519,7 +2528,6 @@
         "tools/NetCore31/NSwag.Core.Yaml.dll",
         "tools/NetCore31/NSwag.Core.Yaml.pdb",
         "tools/NetCore31/NSwag.Core.dll",
-        "tools/NetCore31/NSwag.Core.dll.config",
         "tools/NetCore31/NSwag.Core.pdb",
         "tools/NetCore31/NSwag.Core.xml",
         "tools/NetCore31/NSwag.Generation.AspNetCore.dll",
@@ -2534,15 +2542,16 @@
         "tools/NetCore31/Namotion.Reflection.dll",
         "tools/NetCore31/Newtonsoft.Json.Bson.dll",
         "tools/NetCore31/Newtonsoft.Json.dll",
+        "tools/NetCore31/Parlot.dll",
         "tools/NetCore31/System.Text.Encodings.Web.dll",
+        "tools/NetCore31/TimeZoneConverter.dll",
         "tools/NetCore31/YamlDotNet.dll",
         "tools/NetCore31/dotnet-nswag.deps.json",
         "tools/NetCore31/dotnet-nswag.dll",
         "tools/NetCore31/dotnet-nswag.exe",
         "tools/NetCore31/dotnet-nswag.pdb",
         "tools/NetCore31/dotnet-nswag.runtimeconfig.json",
-        "tools/NetCore31/it/DotLiquid.resources.dll",
-        "tools/Win/DotLiquid.dll",
+        "tools/Win/Fluid.dll",
         "tools/Win/Microsoft.AspNetCore.Authentication.Abstractions.dll",
         "tools/Win/Microsoft.AspNetCore.Authentication.Core.dll",
         "tools/Win/Microsoft.AspNetCore.Authorization.Policy.dll",
@@ -2576,6 +2585,7 @@
         "tools/Win/Microsoft.AspNetCore.TestHost.dll",
         "tools/Win/Microsoft.AspNetCore.WebUtilities.dll",
         "tools/Win/Microsoft.AspNetCore.dll",
+        "tools/Win/Microsoft.Bcl.AsyncInterfaces.dll",
         "tools/Win/Microsoft.DotNet.PlatformAbstractions.dll",
         "tools/Win/Microsoft.Extensions.Configuration.Abstractions.dll",
         "tools/Win/Microsoft.Extensions.Configuration.Binder.dll",
@@ -2638,7 +2648,6 @@
         "tools/Win/NSwag.Core.Yaml.dll",
         "tools/Win/NSwag.Core.Yaml.pdb",
         "tools/Win/NSwag.Core.dll",
-        "tools/Win/NSwag.Core.dll.config",
         "tools/Win/NSwag.Core.pdb",
         "tools/Win/NSwag.Core.xml",
         "tools/Win/NSwag.Generation.AspNetCore.dll",
@@ -2657,6 +2666,7 @@
         "tools/Win/NSwag.x86.exe.config",
         "tools/Win/Namotion.Reflection.dll",
         "tools/Win/Newtonsoft.Json.dll",
+        "tools/Win/Parlot.dll",
         "tools/Win/System.AppContext.dll",
         "tools/Win/System.Buffers.dll",
         "tools/Win/System.Collections.Concurrent.dll",
@@ -2747,6 +2757,7 @@
         "tools/Win/System.Text.Encoding.Extensions.dll",
         "tools/Win/System.Text.Encoding.dll",
         "tools/Win/System.Text.Encodings.Web.dll",
+        "tools/Win/System.Text.Json.dll",
         "tools/Win/System.Text.RegularExpressions.dll",
         "tools/Win/System.Threading.Overlapped.dll",
         "tools/Win/System.Threading.Tasks.Extensions.dll",
@@ -2763,6 +2774,7 @@
         "tools/Win/System.Xml.XPath.dll",
         "tools/Win/System.Xml.XmlDocument.dll",
         "tools/Win/System.Xml.XmlSerializer.dll",
+        "tools/Win/TimeZoneConverter.dll",
         "tools/Win/YamlDotNet.dll",
         "tools/Win/netstandard.dll"
       ]
@@ -2781,10 +2793,10 @@
         "sparc.authentication.client.nuspec"
       ]
     },
-    "Sparc.Core/6.1.1": {
-      "sha512": "bqVLJorZBeC/5XF9EbyUFEw91/EKOo3zheNyG42GSZ3h7ncKyRJxNkea7zwJBHJZk11aJqG5O8cj4ivTYOeB3Q==",
+    "Sparc.Core/6.3.0": {
+      "sha512": "PALWU+d9y0BQgE3GxvJE8FZnX4R4xCqzWxzJFIjWXH5jNXr2/fHAOaBbnm6tYT8T7E9xWaAPafQ31nGbeoOuVQ==",
       "type": "package",
-      "path": "sparc.core/6.1.1",
+      "path": "sparc.core/6.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2792,8 +2804,7 @@
         "lib/net6.0-android31.0/Sparc.Core.dll",
         "lib/net6.0-android31.0/Sparc.Core.xml",
         "lib/net6.0/Sparc.Core.dll",
-        "readme.md",
-        "sparc.core.6.1.1.nupkg.sha512",
+        "sparc.core.6.3.0.nupkg.sha512",
         "sparc.core.nuspec"
       ]
     },
@@ -2995,8 +3006,13 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AgregaDotNet.Razor.UI >= 1.0.0",
+      "Microsoft.AspNetCore.Components.Authorization >= 6.0.10",
+      "Microsoft.AspNetCore.Components.Web >= 6.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.9",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.9",
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication >= 6.0.10",
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.0",
+      "NSwag.ApiDescription.Client >= 13.16.1",
+      "Newtonsoft.Json >= 13.0.1",
       "Sparc.Platforms.Web >= 6.3.6"
     ]
   },
@@ -3049,14 +3065,36 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": {
+            "target": "Package",
+            "version": "[6.0.10, )"
+          },
+          "Microsoft.AspNetCore.Components.Web": {
+            "target": "Package",
+            "version": "[6.0.10, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[6.0.9, )"
           },
+          "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+            "target": "Package",
+            "version": "[6.0.10, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[6.0.9, )"
+            "version": "[6.0.0, )"
+          },
+          "NSwag.ApiDescription.Client": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[13.16.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
           },
           "Sparc.Platforms.Web": {
             "target": "Package",
