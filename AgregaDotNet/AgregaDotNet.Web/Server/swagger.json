@@ -239,6 +239,44 @@
           }
         }
       }
+    },
+    "/publicapi/GetYoutubeVideos": {
+      "post": {
+        "tags": [
+          "GetYoutubeVideos"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Post"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Post"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Post"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -264,6 +302,10 @@
       "Post": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
           "subject": {
             "type": "string",
             "nullable": true
@@ -272,7 +314,15 @@
             "type": "string",
             "nullable": true
           },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
           "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "imgUrl": {
             "type": "string",
             "nullable": true
           },
