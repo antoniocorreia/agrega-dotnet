@@ -12,21 +12,29 @@
 /*         INDEX                 */
 /*================================
  *     01.  Tiny Slider          *
- *     02.  Countdown Js         * (For Comingsoon pages)
- *     03.  Maintenance js       * (For Maintenance page)
- *     04.  Data Counter         *
- *     05.  Gallery filter js    * (For Portfolio pages)
- *     06.  Tobii lightbox       * (For Portfolio pages)
- *     07.  CK Editor            * (For Compose mail)
- *     08.  Validation Form      * 
- *     09.  Switcher Pricing Plan* 
- *     10.  Charts               * 
- *     11.  Switcher Js          * 
+ *     02.  Swiper slider        *
+ *     03.  Countdown Js         * (For Comingsoon pages)
+ *     04.  Maintenance js       * (For Maintenance page)
+ *     05.  Data Counter         *
+ *     06.  Datepicker js        *
+ *     07.  Gallery filter js    * (For Portfolio pages)
+ *     08.  Tobii lightbox       * (For Portfolio pages)
+ *     09.  CK Editor            * (For Compose mail)
+ *     10.  WOW JS Animation     * 
+ *     11.  Typed Text animation (animation) * 
+ *     12.  Validation Form      * 
+ *     13.  Switcher Pricing Plan* 
+ *     14.  Cookies Policy       *
+ *     15.  Back Button          *
+ *     16.  Particles            *
+ *     17.  ApexCharts           * (chart for cryptocurrency)
+ *     18.  Switcher JS          *
  ================================*/
          
 //=========================================//
 /*            01) Tiny slider              */
 //=========================================//
+
 if(document.getElementsByClassName('tiny-single-item').length > 0) {
     var slider = tns({
         container: '.tiny-single-item',
@@ -44,8 +52,300 @@ if(document.getElementsByClassName('tiny-single-item').length > 0) {
     });
 };
 
+if(document.getElementsByClassName('tiny-two-item').length > 0) {
+    var slider = tns({
+        container: '.tiny-two-item',
+        controls: false,
+        mouseDrag: true,
+        loop: true,
+        rewind: true,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 3000,
+        navPosition: "bottom",
+        speed: 400,
+        gutter: 12,
+        responsive: {
+            992: {
+                items: 2
+            },
+
+            767: {
+                items: 2
+            },
+
+            320: {
+                items: 1
+            },
+        },
+    });
+};
+
+if(document.getElementsByClassName('tiny-three-item').length > 0) {
+    var slider = tns({
+        container: '.tiny-three-item',
+        controls: false,
+        mouseDrag: true,
+        loop: true,
+        rewind: true,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 3000,
+        navPosition: "bottom",
+        speed: 400,
+        gutter: 12,
+        responsive: {
+            992: {
+                items: 3
+            },
+
+            767: {
+                items: 2
+            },
+
+            320: {
+                items: 1
+            },
+        },
+    });
+};
+
+if(document.getElementsByClassName('tiny-four-item').length > 0) {
+    var slider = tns({
+        container: '.tiny-four-item',
+        controls: false,
+        mouseDrag: true,
+        loop: true,
+        rewind: true,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 3000,
+        navPosition: "bottom",
+        speed: 400,
+        gutter: 12,
+        responsive: {
+            992: {
+                items: 4
+            },
+
+            767: {
+                items: 2
+            },
+
+            320: {
+                items: 1
+            },
+        },
+    });
+};
+
+
+
+if(document.getElementsByClassName('roadmaps').length > 0) {
+    var slider = tns({
+        container: '.roadmaps',
+        controls: false,
+        mouseDrag: true,
+        loop: true,
+        rewind: true,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 3000,
+        nav: false,
+        speed: 400,
+        gutter: 12,
+        responsive: {
+            992: {
+                items: 4
+            },
+
+            767: {
+                items: 2
+            },
+
+            320: {
+                items: 1
+            },
+        },
+    });
+};
+
+if(document.getElementsByClassName('tiny-six-item').length > 0) {
+    var slider = tns({
+        container: '.tiny-six-item',
+        controls: false,
+        mouseDrag: true,
+        loop: true,
+        rewind: true,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 3000,
+        navPosition: "bottom",
+        speed: 400,
+        gutter: 12,
+        responsive: {
+            992: {
+                items: 6
+            },
+
+            767: {
+                items: 3
+            },
+
+            320: {
+                items: 1
+            },
+        },
+    });
+};
+
+
+
+if(document.getElementsByClassName('tiny-twelve-item').length > 0) {
+    var slider = tns({
+        container: '.tiny-twelve-item',
+        controls: true,
+        mouseDrag: true,
+        loop: true,
+        rewind: true,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 3000,
+        navPosition: "bottom",
+        controlsText: ['<i class="mdi mdi-chevron-left "></i>', '<i class="mdi mdi-chevron-right"></i>'],
+        nav: false,
+        speed: 400,
+        gutter: 0,
+        responsive: {
+            1025: {
+                items: 10
+            },
+
+            992: {
+                items: 8
+            },
+
+            767: {
+                items: 6
+            },
+
+            320: {
+                items: 2
+            },
+        },
+    });
+};
+
+
+
+if(document.getElementsByClassName('tiny-five-item').length > 0) {
+    var slider = tns({
+        container: '.tiny-five-item',
+        controls: true,
+        mouseDrag: true,
+        loop: true,
+        rewind: true,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 3000,
+        navPosition: "bottom",
+        controlsText: ['<i class="mdi mdi-chevron-left "></i>', '<i class="mdi mdi-chevron-right"></i>'],
+        nav: false,
+        speed: 400,
+        gutter: 0,
+        responsive: {
+            1025: {
+                items: 5
+            },
+
+            992: {
+                items: 4
+            },
+
+            767: {
+                items: 3
+            },
+
+            320: {
+                items: 2
+            },
+        },
+    });
+};
+
 //=========================================//
-/*/*            02) Countdown js           */
+/*            02) Swiper slider            */
+//=========================================//
+
+try {
+    var menu = [];
+    var interleaveOffset = 0.5;
+    var swiperOptions = {
+        loop: true,
+        speed: 1000,
+        parallax: true,
+        autoplay: {
+            delay: 6500,
+            disableOnInteraction: false,
+        },
+        watchSlidesProgress: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + 0 + (index + 1) + '</span>';
+            },
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        on: {
+            progress: function () {
+                var swiper = this;
+                for (var i = 0; i < swiper.slides.length; i++) {
+                    var slideProgress = swiper.slides[i].progress;
+                    var innerOffset = swiper.width * interleaveOffset;
+                    var innerTranslate = slideProgress * innerOffset;
+                    swiper.slides[i].querySelector(".slide-inner").style.transform =
+                        "translate3d(" + innerTranslate + "px, 0, 0)";
+                }
+            },
+
+            touchStart: function () {
+                var swiper = this;
+                for (var i = 0; i < swiper.slides.length; i++) {
+                    swiper.slides[i].style.transition = "";
+                }
+            },
+
+            setTransition: function (speed) {
+                var swiper = this;
+                for (var i = 0; i < swiper.slides.length; i++) {
+                    swiper.slides[i].style.transition = speed + "ms";
+                    swiper.slides[i].querySelector(".slide-inner").style.transition =
+                        speed + "ms";
+                }
+            }
+        }
+    };
+
+    // DATA BACKGROUND IMAGE
+    var swiper = new Swiper(".swiper-container", swiperOptions);
+
+    let data = document.querySelectorAll(".slide-bg-image")
+    data.forEach((e) => {
+        e.style.backgroundImage =
+        `url(${e.getAttribute('data-background')})`;
+    })
+} catch (err) {
+
+}
+
+//=========================================//
+/*/*            03) Countdown js           */
 //=========================================//
 
 try {
@@ -88,7 +388,7 @@ try {
 
 
 //=========================================//
-/*/*            03) Maintenance js         */
+/*/*            04) Maintenance js         */
 //=========================================//
 
 try {
@@ -115,7 +415,7 @@ try {
 }
 
 //=========================================//
-/*/*            04) Data Counter           */
+/*/*            05) Data Counter           */
 //=========================================//
 
 try {
@@ -151,8 +451,21 @@ try {
 
 }
 
+
 //=========================================//
-/*/*            05) Gallery filter js      */
+/*/*            06) Datepicker js*/
+//=========================================//
+
+try {
+    const start = datepicker('.start', { id: 1 })
+    const end = datepicker('.end', { id: 1 })
+} catch (err) {
+
+}
+
+
+//=========================================//
+/*/*            07) Gallery filter js      */
 //=========================================//
 
 try {
@@ -236,7 +549,7 @@ try {
 
 
 //=========================================//
-/*/*            06) Tobii lightbox         */
+/*/*            08) Tobii lightbox         */
 //=========================================//
 
 try {
@@ -247,7 +560,7 @@ try {
 
 
 //=========================================//
-/*/*            07) CK Editor              */
+/*/*            09) CK Editor              */
 //=========================================//
 
 try {
@@ -260,8 +573,84 @@ try {
 
 }
 
+
 //=========================================//
-/*/*    08) Validation Shop Checkouts      */
+/*/*          10) Wow JS Animation         */
+//=========================================//
+try {
+    new WOW().init();
+} catch (error) {
+    
+}
+
+
+//=========================================//
+/*/* 11) Typed Text animation (animation) */
+//=========================================//
+
+try {
+    var TxtType = function (el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function () {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+        if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+        if (this.isDeleting) { delta /= 2; }
+        if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+        }
+        setTimeout(function () {
+            that.tick();
+        }, delta);
+    };
+
+    function typewrite() {
+        if (toRotate === 'undefined') {
+            changeText()
+        }
+        else
+            var elements = document.getElementsByClassName('typewrite');
+        for (var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+                new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid transparent}";
+        document.body.appendChild(css);
+    };
+    window.onload(typewrite());
+} catch(err) {
+
+}
+
+
+//=========================================//
+/*/*    12) Validation Shop Checkouts      */
 //=========================================//
 
 (function () {
@@ -288,7 +677,7 @@ try {
 
 
 //=========================================//
-/*/*      09) Switcher Pricing Plans       */
+/*/*      13) Switcher Pricing Plans       */
 //=========================================//
 try {
     var e = document.getElementById("filt-monthly"),
@@ -323,116 +712,194 @@ try {
 
 }
 
+//=========================================//
+/*/*      14) Cookies Policy               */
+//=========================================//
 
-//=========================================//
-/*/*      10) Charts                       */
-//=========================================//
-//Chart One
 try {
-    var options = {
-        chart: {
-            height: 360,
-            type: 'area',
-            width: '100%',
-            stacked: true,
-            toolbar: {
-              show: false,
-              autoSelected: 'zoom'
-            },
-        },
-        colors: ['#2f55d4', '#2eca8b'],
-        dataLabels: {
-            enabled: false
-        },
-        stroke: {
-            curve: 'smooth',
-            width: [1.5, 1.5],
-            dashArray: [0, 4],
-            lineCap: 'round',
-        },
-        grid: {
-          padding: {
-            left: 0,
-            right: 0
-          },
-          strokeDashArray: 3,
-        },
-        markers: {
-          size: 0,
-          hover: {
-            size: 0
-          }
-        },
-        series: [{
-            name: 'Item Sales',
-            data: [0, 100, 40, 110, 60, 140, 55, 130, 65, 180, 75, 115],
-        }, {
-            name: 'Revenue',
-            data: [0, 45, 10, 75, 35, 94, 40, 115, 30, 105, 65, 110],
-        }],
-        xaxis: {
-            type: 'month',
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-            axisBorder: {
-              show: true,
-            },  
-            axisTicks: {
-              show: true,
-            },
-        },
-        fill: {
-          type: "gradient",
-          gradient: {
-            shadeIntensity: .8,
-            opacityFrom: 0.3,
-            opacityTo: 0.2,
-            stops: [0, 80, 100]
-          }
-        },
-        
-        tooltip: {
-            x: {
-                format: 'dd/MM/yy HH:mm'
-            },
-        },
-        legend: {
-          position: 'bottom',
-          offsetY: 0,
-        },
-      }
-      
-      var chart = new ApexCharts(
-        document.querySelector("#dashboard"),
-        options
-      );
-      
-      chart.render();
+    /* common fuctions */
+    function el(selector) { return document.querySelector(selector) }
+    function els(selector) { return document.querySelectorAll(selector) }
+    function on(selector, event, action) { els(selector).forEach(e => e.addEventListener(event, action)) }
+    function cookie(name) { 
+        let c = document.cookie.split('; ').find(cookie => cookie && cookie.startsWith(name+'='))
+        return c ? c.split('=')[1] : false; 
+    }
+
+    /* popup button hanler */
+    on('.cookie-popup button', 'click', () => {
+        el('.cookie-popup').classList.add('cookie-popup-accepted');
+        document.cookie = `cookie-accepted=true`
+    });
+
+    /* popup init hanler */
+    if (cookie('cookie-accepted') !== "true") {
+        el('.cookie-popup').classList.add('cookie-popup-not-accepted');
+    }
 } catch (error) {
     
 }
 
-//Chart two
+//=========================================//
+/*/*            15) Back Button            */
+//=========================================//
+document.getElementsByClassName("back-button")[0]?.addEventListener("click", (e)=>{
+    if (document.referrer !== "") {
+        e.preventDefault();
+        window.location.href = document.referrer;
+      }
+})
+
+  
+//=========================================//
+/*            16) Particles                */
+//=========================================//
+
 try {
-    var options2 = {
+    particlesJS("particles-snow", {
+        "particles": {
+            "number": {
+                "value": 250,
+                "density": {
+                    "enable": false,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 36
+                },
+                "image": {
+                    "src": "",
+                    "width": 1000,
+                    "height": 1000
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 0.5,
+                    "opacity_min": 1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 3.2,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 20,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": false,
+                "distance": 100,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 2
+            },
+            "move": {
+                "enable": true,
+                "speed": 1,
+                "direction": "bottom",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 800,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": false,
+                    "mode": "repulse"
+                },
+                "onclick": {
+                    "enable": false,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 200,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 71,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    });
+} catch (error) {
+    
+}
+
+//=========================================//
+/*            17) ApexCharts               */
+//=========================================//
+//Chart 1
+try {
+    var options = {
+        series: [{
+            data: [20, 45, 40, 64, 35, 25, 35]
+        }],
         chart: {
-            type: 'bar',
-            height: 100,
+            type: 'area',
+            height: 90,
+            width: '100%',
             sparkline: {
                 enabled: true
             }
         },
-        colors: ["#2f55d4"],
-        plotOptions: {
-            bar: {
-                columnWidth: '30%'
-            }
+        stroke: {
+            curve: 'smooth',
+            width: 3,
         },
-        series: [{
-            data: [30, 50, 60, 42, 48, 56, 29, 25, 46, 12, 58, 45, 89, 52, 41, 20, 13, 5, 20, 15, 19, 45, 45, 86, 75, 66, 55, 46, 61, 66]
-        }],
-        xaxis: {
-            crosshairs: {
-                width: 1
+        colors: ['#52cc99'],
+        fill: {
+            type: 'gradient',
+            gradient: {
+                shadeIntensity: 1,
+                inverseColors: false,
+                opacityFrom: 0.45,
+                opacityTo: 0.05,
+                stops: [20, 100, 100, 100]
             },
         },
         tooltip: {
@@ -453,62 +920,190 @@ try {
                 show: false
             }
         }
-    }
-    new ApexCharts(document.querySelector("#sale-chart"), options2).render();
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart-1"), options);
+    chart.render();
+
+    
 } catch (error) {
     
 }
 
-//Chart Three
-try {
+
+
+//chart 2
+    try {
     var options = {
+        series: [{
+            data: [10, 25, 30, 54, 45, 39, 15]
+        }],
         chart: {
-            height: 320,
-            type: 'donut',
-        },
-        series: [45, 21, 23, 28],
-        labels: ["Item 1", "Item 2", "Item 3", "Item 4"],
-        legend: {
-            show: true,
-            position: 'bottom',
-            offsetY: 0,
-        },
-        dataLabels: {
-            enabled: true,
-            dropShadow: {
-                enabled: false,
+            type: 'area',
+            height: 90,
+            width: '100%',
+            sparkline: {
+                enabled: true
             }
         },
         stroke: {
-            show: true,
-            colors: ['transparent'],
+            curve: 'smooth',
+            width: 3,
         },
-        // dataLabels: {
-        //     enabled: false,
-        // },
-        theme: {
-            monochrome: {
-                enabled: true,
-                color: '#2f55d4',
-            }
+        colors: ['#ff6647'],
+        fill: {
+            type: 'gradient',
+            gradient: {
+                shadeIntensity: 1,
+                inverseColors: false,
+                opacityFrom: 0.45,
+                opacityTo: 0.05,
+                stops: [20, 100, 100, 100]
+            },
         },
-        responsive: [{
-            breakpoint: 768,
-            options: {
-                chart: {
-                    height: 400,
-                },
+        tooltip: {
+            fixed: {
+                enabled: false
+            },
+            x: {
+                show: false
+            },
+            y: {
+                title: {
+                    formatter: function (seriesName) {
+                        return ''
+                    }
+                }
+            },
+            marker: {
+                show: false
             }
-        }]
-    }
-    var chart = new ApexCharts(document.querySelector("#top-product-chart"), options);
+        }
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart-2"), options);
     chart.render();
+    
+} catch (error) {
+    
+}
+
+
+//Chart 3
+try {
+    var options = {
+        series: [{
+            data: [15, 20, 10, 45, 20, 10, 5]
+        }],
+        chart: {
+            type: 'area',
+            height: 90,
+            width: '100%',
+            sparkline: {
+                enabled: true
+            }
+        },
+        stroke: {
+            curve: 'smooth',
+            width: 3,
+        },
+        colors: ['#52cc99'],
+        fill: {
+            type: 'gradient',
+            gradient: {
+                shadeIntensity: 1,
+                inverseColors: false,
+                opacityFrom: 0.45,
+                opacityTo: 0.05,
+                stops: [20, 100, 100, 100]
+            },
+        },
+        tooltip: {
+            fixed: {
+                enabled: false
+            },
+            x: {
+                show: false
+            },
+            y: {
+                title: {
+                    formatter: function (seriesName) {
+                        return ''
+                    }
+                }
+            },
+            marker: {
+                show: false
+            }
+        }
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart-3"), options);
+    chart.render();
+    
+} catch (error) {
+    
+}
+
+
+//Chart 4
+try {
+    var options = {
+        series: [{
+            data: [3, 5, 7, 11, 8, 5, 7]
+        }],
+        chart: {
+            type: 'area',
+            height: 90,
+            width: '100%',
+            sparkline: {
+                enabled: true
+            }
+        },
+        stroke: {
+            curve: 'smooth',
+            width: 3,
+        },
+        colors: ['#ff6647'],
+        fill: {
+            type: 'gradient',
+            gradient: {
+                shadeIntensity: 1,
+                inverseColors: false,
+                opacityFrom: 0.45,
+                opacityTo: 0.05,
+                stops: [20, 100, 100, 100]
+            },
+        },
+        tooltip: {
+            fixed: {
+                enabled: false
+            },
+            x: {
+                show: false
+            },
+            y: {
+                title: {
+                    formatter: function (seriesName) {
+                        return ''
+                    }
+                }
+            },
+            marker: {
+                show: false
+            }
+        }
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart-4"), options);
+    chart.render();
+    
 } catch (error) {
     
 }
 
 //=========================================//
-/*            11) Switcher JS              */
+/*            18) Switcher JS              */
 //=========================================//
 
 try {    
@@ -546,7 +1141,7 @@ try {
        
         document.getElementsByClassName('theme-opt')[0].href =bootstarpHref
         document.getElementsByClassName('theme-opt')[1].href =styleHref
-        // toggleSwitcher(false);
+        toggleSwitcher(false);
     };
 } catch (error) {
     
