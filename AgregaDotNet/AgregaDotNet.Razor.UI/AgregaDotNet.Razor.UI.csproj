@@ -30,4 +30,9 @@
 		</OpenApiReference>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="wwwroot\libs\" />
+	  <Folder Include="wwwroot\css\" />
+	</ItemGroup>
+
 </Project>

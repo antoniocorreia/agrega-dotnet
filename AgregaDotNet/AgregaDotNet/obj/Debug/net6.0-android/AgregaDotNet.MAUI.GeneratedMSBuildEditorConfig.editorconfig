@@ -3,42 +3,22 @@ build_property.TargetFramework = net6.0-android
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = false
+build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AgregaDotNet
 build_property.RootNamespace = AgregaDotNet
-build_property.ProjectDir = C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\
+build_property.ProjectDir = C:\Users\laura\Source\Repos\agrega-dotnet\AgregaDotNet\AgregaDotNet\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet
+build_property.MSBuildProjectDirectory = C:\Users\laura\Source\Repos\agrega-dotnet\AgregaDotNet\AgregaDotNet
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/anton/Documents/GitHub/agrega-dotnet/AgregaDotNet/AgregaDotNet/App.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AgregaDotNet.App.xaml
-build_metadata.AdditionalFiles.TargetPath = App.xaml
-build_metadata.AdditionalFiles.RelativePath = App.xaml
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/anton/Documents/GitHub/agrega-dotnet/AgregaDotNet/AgregaDotNet/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AgregaDotNet.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/anton/Documents/GitHub/agrega-dotnet/AgregaDotNet/AgregaDotNet/Main.razor]
-build_metadata.AdditionalFiles.GenKind = 
-build_metadata.AdditionalFiles.ManifestResourceName = 
+[C:/Users/laura/Source/Repos/agrega-dotnet/AgregaDotNet/AgregaDotNet/Main.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbi5yYXpvcg==
-build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anton/Documents/GitHub/agrega-dotnet/AgregaDotNet/AgregaDotNet/_Imports.razor]
-build_metadata.AdditionalFiles.GenKind = 
-build_metadata.AdditionalFiles.ManifestResourceName = 
+[C:/Users/laura/Source/Repos/agrega-dotnet/AgregaDotNet/AgregaDotNet/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
-build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
