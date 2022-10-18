@@ -23,6 +23,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/anton/Documents/GitHub/agrega-dotnet/AgregaDotNet/AgregaDotNet.Razor.UI/Pages/Creators.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRvcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/anton/Documents/GitHub/agrega-dotnet/AgregaDotNet/AgregaDotNet.Razor.UI/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

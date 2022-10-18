@@ -3,10 +3,267 @@
 
 @attribute [AllowAnonymous]
 
-<PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="features-absolute blog-search">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <div class="text-center subcribe-form">
+                                <form style="max-width: 800px;">
+                                    <div class="mb-0">
+                                        <input type="text" id="help" name="name" class="border shadow rounded-pill bg-white-color" required="" placeholder="Search">
+                                        <button type="submit" class="btn btn-pills btn-primary">Search</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end div-->
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    
+    <div class="container">
+        <div class="row align-items-center mb-4 pb-2">
+            <div class="col-md-8">
+                <div class="section-title text-center text-md-start">
+                    <h4 class="mb-4">Recent Post</h4>
+                    <p class="text-muted mb-0 para-desc">Check what's new in the .NET world.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4 mt-sm-0">
+                <div class="text-center text-md-end">
+                    <a href="javascript:void(0)" class="btn btn-soft-primary">See More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach (var post in posts)
+            {
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
+                        <div class="position-relative">
+                            <img src="/_content/AgregaDotNet.Razor.UI/images/blog/04.jpg" class="card-img-top" alt="...">
+                            <div class="overlay rounded-top"></div>
+                        </div>
+                        <div class="card-body content">
+                            <h5><a href="javascript:void(0)" class="card-title title text-dark">@post.Subject</a></h5>
+                            <div class="post-meta d-flex justify-content-between mt-3">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                                </ul>
+                                <a href="blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                            </div>
+                        </div>
+                        <div class="author">
+                            <small class="user d-block"><i class="uil uil-user"></i> @post.Authors.FirstOrDefault()</small>
+                            <small class="date"><i class="uil uil-calendar-alt"></i> </small>
+                        </div>
+                    </div>
+                </div>
+
+            }
+           
+        </div><!--end row-->
+    </div><!--end container-->
+    <!-- Cta start -->
+    <div class="container-fluid mt-100 mt-60">
+        <div class="rounded-md shadow-md py-5 position-relative" style="background: url('/_content/AgregaDotNet.Razor.UI/images/3.jpg') center center;">
+            <div class="bg-overlay rounded-md"></div>
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold text-white title-dark mb-4 pb-2">People are podcasting <br> all over the world</h2>
+                            <a href="javascript:void(0)" class="btn btn-primary">Read More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </div><!--end slide-->
+    </div><!--end container-->
+    
+
+    <div class="container mt-100 mt-60">
+        <div class="row align-items-center mb-4 pb-2">
+            <div class="col-md-8">
+                <div class="section-title text-center text-md-start">
+                    <h4 class="mb-4">All News or Blog Post</h4>
+                    <p class="text-muted mb-0 para-desc">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
+                    <div class="position-relative">
+                        <img src="/_content/AgregaDotNet.Razor.UI/images/blog/01.jpg" class="card-img-top" alt="...">
+                        <div class="overlay rounded-top"></div>
+                    </div>
+                    <div class="card-body content">
+                        <h5><a href="javascript:void(0)" class="card-title title text-dark">Design your apps in your own way</a></h5>
+                        <div class="post-meta d-flex justify-content-between mt-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                            </ul>
+                            <a href="blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                        <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
+                    <div class="position-relative">
+                        <img src="/_content/AgregaDotNet.Razor.UI/images/blog/02.jpg" class="card-img-top" alt="...">
+                        <div class="overlay rounded-top"></div>
+                    </div>
+                    <div class="card-body content">
+                        <h5><a href="javascript:void(0)" class="card-title title text-dark">How apps is changing the IT world</a></h5>
+                        <div class="post-meta d-flex justify-content-between mt-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                            </ul>
+                            <a href="blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                        <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
+                    <div class="position-relative">
+                        <img src="/_content/AgregaDotNet.Razor.UI/images/blog/03.jpg" class="card-img-top" alt="...">
+                        <div class="overlay rounded-top"></div>
+                    </div>
+                    <div class="card-body content">
+                        <h5><a href="javascript:void(0)" class="card-title title text-dark">Smartest Applications for Business</a></h5>
+                        <div class="post-meta d-flex justify-content-between mt-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                            </ul>
+                            <a href="blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                        <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
+                    <div class="position-relative">
+                        <img src="/_content/AgregaDotNet.Razor.UI/images/blog/04.jpg" class="card-img-top" alt="...">
+                        <div class="overlay rounded-top"></div>
+                    </div>
+                    <div class="card-body content">
+                        <h5><a href="javascript:void(0)" class="card-title title text-dark">How apps is changing the IT world</a></h5>
+                        <div class="post-meta d-flex justify-content-between mt-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                            </ul>
+                            <a href="blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                        <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
+                    <div class="position-relative">
+                        <img src="/_content/AgregaDotNet.Razor.UI/images/blog/05.jpg" class="card-img-top" alt="...">
+                        <div class="overlay rounded-top"></div>
+                    </div>
+                    <div class="card-body content">
+                        <h5><a href="javascript:void(0)" class="card-title title text-dark">Design your apps in your own way</a></h5>
+                        <div class="post-meta d-flex justify-content-between mt-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                            </ul>
+                            <a href="blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                        <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
+                    <div class="position-relative">
+                        <img src="/_content/AgregaDotNet.Razor.UI/images/blog/06.jpg" class="card-img-top" alt="...">
+                        <div class="overlay rounded-top"></div>
+                    </div>
+                    <div class="card-body content">
+                        <h5><a href="javascript:void(0)" class="card-title title text-dark">Smartest Applications for Business</a></h5>
+                        <div class="post-meta d-flex justify-content-between mt-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                            </ul>
+                            <a href="blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                        <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-12 mt-4 pt-2">
+                <div class="text-center">
+                    <a href="javascript:void(0)" class="btn btn-primary">See More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End -->
+
+
+@code {
+    ICollection<Post> posts = new List<Post>();
+
+    //protected async override Task OnInitializedAsync()
+    //{
+    //    posts = await PublicApi().GetBlogPostsAsync();
+    //}
+
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        posts = await PublicApi().GetBlogPostsAsync();
+        StateHasChanged();
+    }
+}
