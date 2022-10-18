@@ -79,3 +79,8 @@ C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Serv
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Server\obj\Debug\net6.0\AgregaDotNet.Features.genruntimeconfig.cache
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Server\obj\Debug\net6.0\ref\AgregaDotNet.Features.dll
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Server\bin\Debug\net6.0\swagger.json
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Server\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Server\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Server\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Server\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet.Web\Server\bin\Debug\net6.0\Google.Apis.YouTube.v3.dll
