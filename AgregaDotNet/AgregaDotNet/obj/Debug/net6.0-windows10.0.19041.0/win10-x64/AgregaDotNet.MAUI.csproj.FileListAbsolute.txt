@@ -368,3 +368,4 @@ C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\obj\Debu
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\anton\Documents\GitHub\agrega-dotnet\AgregaDotNet\AgregaDotNet\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Sparc.Core.dll

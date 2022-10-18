@@ -14,6 +14,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net6.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xamarin.build.download\0.11.2\buildTransitive\Xamarin.Build.Download.props" Condition="Exists('$(NuGetPackageRoot)xamarin.build.download\0.11.2\buildTransitive\Xamarin.Build.Download.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.486\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.486\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
   </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net6.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
@@ -24,6 +25,12 @@
     <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk\1.1.3\buildTransitive\Microsoft.WindowsAppSDK.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk\1.1.3\buildTransitive\Microsoft.WindowsAppSDK.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.486\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.486\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net6.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNSwag_MSBuild Condition=" '$(PkgNSwag_MSBuild)' == '' ">C:\Users\anton\.nuget\packages\nswag.msbuild\13.14.5</PkgNSwag_MSBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net6.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNSwag_MSBuild Condition=" '$(PkgNSwag_MSBuild)' == '' ">C:\Users\anton\.nuget\packages\nswag.msbuild\13.14.5</PkgNSwag_MSBuild>
+  </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net6.0-windows10.0.19041.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_WindowsAppSDK Condition=" '$(PkgMicrosoft_WindowsAppSDK)' == '' ">C:\Users\anton\.nuget\packages\microsoft.windowsappsdk\1.1.3</PkgMicrosoft_WindowsAppSDK>
   </PropertyGroup>

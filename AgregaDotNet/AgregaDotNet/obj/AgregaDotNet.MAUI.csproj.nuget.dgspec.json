@@ -170,6 +170,10 @@
               "target": "Package",
               "version": "[6.0.486, )",
               "autoReferenced": true
+            },
+            "Sparc.Platforms.Maui": {
+              "target": "Package",
+              "version": "[6.4.1, )"
             }
           },
           "imports": [
@@ -219,6 +223,10 @@
               "target": "Package",
               "version": "[6.0.486, )",
               "autoReferenced": true
+            },
+            "Sparc.Platforms.Maui": {
+              "target": "Package",
+              "version": "[6.4.1, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",

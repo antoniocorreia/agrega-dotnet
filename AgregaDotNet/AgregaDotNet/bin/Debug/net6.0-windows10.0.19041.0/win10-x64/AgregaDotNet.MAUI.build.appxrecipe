@@ -724,19 +724,19 @@
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.27\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.authorization\6.0.7\lib\net6.0\Microsoft.AspNetCore.Authorization.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.authorization\6.0.10\lib\net6.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components\6.0.7\lib\net6.0\Microsoft.AspNetCore.Components.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components\6.0.10\lib\net6.0\Microsoft.AspNetCore.Components.dll">
       <PackagePath>Microsoft.AspNetCore.Components.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.authorization\6.0.0\lib\net6.0\Microsoft.AspNetCore.Components.Authorization.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.authorization\6.0.10\lib\net6.0\Microsoft.AspNetCore.Components.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Components.Authorization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.forms\6.0.7\lib\net6.0\Microsoft.AspNetCore.Components.Forms.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.forms\6.0.10\lib\net6.0\Microsoft.AspNetCore.Components.Forms.dll">
       <PackagePath>Microsoft.AspNetCore.Components.Forms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.web\6.0.7\lib\net6.0\Microsoft.AspNetCore.Components.Web.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.web\6.0.10\lib\net6.0\Microsoft.AspNetCore.Components.Web.dll">
       <PackagePath>Microsoft.AspNetCore.Components.Web.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.webview\6.0.7\lib\net6.0\Microsoft.AspNetCore.Components.WebView.dll">
@@ -745,7 +745,7 @@
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.components.webview.maui\6.0.486\lib\net6.0-windows10.0.19041\Microsoft.AspNetCore.Components.WebView.Maui.dll">
       <PackagePath>Microsoft.AspNetCore.Components.WebView.Maui.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.metadata\6.0.7\lib\net6.0\Microsoft.AspNetCore.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.aspnetcore.metadata\6.0.10\lib\net6.0\Microsoft.AspNetCore.Metadata.dll">
       <PackagePath>Microsoft.AspNetCore.Metadata.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
@@ -763,7 +763,7 @@
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.configuration.json\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Configuration.Json.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.dependencyinjection\6.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.dependencyinjection\6.0.1\lib\net6.0\Microsoft.Extensions.DependencyInjection.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\6.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
@@ -787,7 +787,7 @@
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.logging\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.1\lib\net6.0\Microsoft.Extensions.Logging.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.2\lib\net6.0\Microsoft.Extensions.Logging.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.extensions.options\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Options.dll">
@@ -799,7 +799,7 @@
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\lib\net5.0-windows10.0.18362.0\Microsoft.Graphics.Canvas.Interop.dll">
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.jsinterop\6.0.7\lib\net6.0\Microsoft.JSInterop.dll">
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.jsinterop\6.0.10\lib\net6.0\Microsoft.JSInterop.dll">
       <PackagePath>Microsoft.JSInterop.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.maui.graphics\6.0.403\lib\net6.0-windows10.0.18362\Microsoft.Maui.Graphics.dll">
@@ -843,6 +843,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\sparc.core\6.3.0\lib\net6.0\Sparc.Core.dll">
+      <PackagePath>Sparc.Core.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\system.io.pipelines\6.0.3\lib\net6.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>

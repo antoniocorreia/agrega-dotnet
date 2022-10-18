@@ -1,5 +1,9 @@
 ﻿using Microsoft.AspNetCore.Components.WebView.Maui;
 using AgregaDotNet.Data;
+using AgregaDotNet.Razor.UI.Shared;
+using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Components;
+using Sparc.Platforms.Maui;
 
 namespace AgregaDotNet;
 
@@ -16,11 +20,24 @@ public static class MauiProgram
 			});
 
 		builder.Services.AddMauiBlazorWebView();
-		#if DEBUG
+#if DEBUG
 		builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
-		
-		builder.Services.AddSingleton<WeatherForecastService>();
+
+        
+        builder.Services.AddAuthorizationCore();
+        builder.Services.AddScoped<IErrorBoundaryLogger, ConsoleErrorBoundaryLogger>()
+            .AddScoped<LayoutComponentBase, MainLayout>();
+
+
+
+        /*builder.Services.AddAuthorizationCore()*/
+        ;
+
+        //builder.Services.AddScoped<IErrorBoundaryLogger, ConsoleErrorBoundaryLogger>()
+        //    .AddScoped<LayoutComponentBase, TMainLayout>();
+
+        builder.Services.AddSingleton<WeatherForecastService>();
 
 		return builder.Build();
 	}
