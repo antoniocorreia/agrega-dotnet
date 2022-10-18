@@ -51,7 +51,7 @@
                 <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
                         <div class="position-relative">
-                            <img src="/_content/AgregaDotNet.Razor.UI/images/blog/04.jpg" class="card-img-top" alt="...">
+                            <img src="@post.Blog.ImageUrl" class="card-img-top" alt="...">
                             <div class="overlay rounded-top"></div>
                         </div>
                         <div class="card-body content">
@@ -66,7 +66,7 @@
                         </div>
                         <div class="author">
                             <small class="user d-block"><i class="uil uil-user"></i> @post.Authors.FirstOrDefault()</small>
-                            <small class="date"><i class="uil uil-calendar-alt"></i> </small>
+                            <small class="date"><i class="uil uil-calendar-alt"></i>  </small>
                         </div>
                     </div>
                 </div>
@@ -263,7 +263,10 @@
 
     protected async override Task OnAfterRenderAsync(bool firstRender)
     {
-        posts = await PublicApi().GetBlogPostsAsync();
-        StateHasChanged();
+        if(firstRender){
+            posts = await PublicApi().GetBlogPostsAsync();
+            StateHasChanged();
+        }
+        
     }
 }
