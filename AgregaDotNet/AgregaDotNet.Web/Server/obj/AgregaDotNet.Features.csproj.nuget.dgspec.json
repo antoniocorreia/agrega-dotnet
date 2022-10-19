@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Server\\AgregaDotNet.Features.csproj": {}
+    "C:\\Users\\laura\\Source\\Repos\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Server\\AgregaDotNet.Features.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Server\\AgregaDotNet.Features.csproj": {
+    "C:\\Users\\laura\\Source\\Repos\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Server\\AgregaDotNet.Features.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Server\\AgregaDotNet.Features.csproj",
+        "projectUniqueName": "C:\\Users\\laura\\Source\\Repos\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Server\\AgregaDotNet.Features.csproj",
         "projectName": "AgregaDotNet.Features",
-        "projectPath": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Server\\AgregaDotNet.Features.csproj",
-        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anton\\Documents\\GitHub\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Server\\obj\\",
+        "projectPath": "C:\\Users\\laura\\Source\\Repos\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Server\\AgregaDotNet.Features.csproj",
+        "packagesPath": "C:\\Users\\laura\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\laura\\Source\\Repos\\agrega-dotnet\\AgregaDotNet\\AgregaDotNet.Web\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -27,7 +29,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/efjohnson/_packaging/efjohnson/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -85,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
