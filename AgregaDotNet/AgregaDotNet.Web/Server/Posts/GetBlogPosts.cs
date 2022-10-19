@@ -26,7 +26,7 @@ namespace AgregaDotNet.Features.Posts
                 XmlReader reader = XmlReader.Create(url);
                 SyndicationFeed feed = SyndicationFeed.Load(reader);
                 reader.Close();
-                foreach (SyndicationItem item in feed.Items)
+                foreach (SyndicationItem item in feed.Items.Take(3))
                 {
                     
                     Post post = new Post(blog);
@@ -50,7 +50,7 @@ namespace AgregaDotNet.Features.Posts
                 }
             }
 
-            return await Task.FromResult(posts);
+            return await Task.FromResult(posts.OrderByDescending(x=>x.PublishDate).ToList());
         }
         
     }
