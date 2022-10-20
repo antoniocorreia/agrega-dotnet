@@ -209,15 +209,15 @@
       "mscorlib.dll": "sha256-SboUbkX8s5RVQGtnN5Q67MBZW0I\/P3aeEMENJq8gv8M=",
       "netstandard.dll": "sha256-lZ8L5iiSghlvyt2ie2YdBYAtJbVa4mvpvBX3W9ihjLc=",
       "System.Private.CoreLib.dll": "sha256-jECkJy2Sjpl59QEL3nO3p8nwKGXvnJpXaKQF\/+MTw04=",
-      "AgregaDotNet.Razor.UI.dll": "sha256-9uCCOW4P4AKc\/K5fmnoode6\/WXv5W+qgGCpqxRzyZ9U=",
-      "AgregaDotNet.Web.dll": "sha256-G3zjQBJwW8owHZBNB8aMbQn4mRdR+Ztw1si\/axx+bq0="
+      "AgregaDotNet.Razor.UI.dll": "sha256-Jc2U6EYcFsNx\/JrWFaYsAgVF7KKPfyXqAyEqkgsVs40=",
+      "AgregaDotNet.Web.dll": "sha256-xe\/6zoUBdc5DMc6xmebnV4BFT76gBXzI3dhzlX2aKdU="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "AgregaDotNet.Razor.UI.pdb": "sha256-ser\/l6IZNSFxYp+3vzkSW\/hrwDkVFlX6YAHe1L0\/oe4=",
-      "AgregaDotNet.Web.pdb": "sha256-i0QyFszmIrVu8j\/FUfG2JZnFJCmplFlvFChnZAi3RMY="
+      "AgregaDotNet.Razor.UI.pdb": "sha256-wudJCWzBaFM+KNGq2lM9FwniUKUFviwsHxpABUCV6tI=",
+      "AgregaDotNet.Web.pdb": "sha256-\/YWAVB4PW9+yr2lIBFqUQDQ0XOSVj1crz+8KK0OgmAA="
     },
     "runtime": {
       "dotnet.6.0.10.sb1i16nkc6.js": "sha256-KtM3Wrooexmrt5NmqvZfWoDPtNIe6wZqLopR6ToqUPg=",
