@@ -46,6 +46,11 @@
         </div>
 
         <div class="row">
+           @if (Loading)
+           {
+               <p>Building your news feed...</p>
+           }
+
             @foreach (var post in posts)
             {
                 <div class="col-lg-4 col-md-6 mt-4 pt-2">
@@ -265,18 +270,13 @@
 
 @code {
     ICollection<Post> posts = new List<Post>();
+    public bool Loading { get; set; } = true;
 
-    //protected async override Task OnInitializedAsync()
-    //{
-    //    posts = await PublicApi().GetBlogPostsAsync();
-    //}
-
-    protected async override Task OnAfterRenderAsync(bool firstRender)
+    protected async override Task OnInitializedAsync()
     {
-        if(firstRender){
-            posts = await PublicApi().GetBlogPostsAsync();
-            StateHasChanged();
-        }
-        
+        posts = await PublicApi().GetBlogPostsAsync();
+        Loading = false;
+        StateHasChanged();
     }
+
 }
