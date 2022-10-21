@@ -12,6 +12,7 @@
         public DateTimeOffset LastUpdatedTime;
 
         public DateTimeOffset PublishDate;
+        public DateTime? PostDate { get; set; }
         public List<string>? Authors { get; set; }
         public List<string>? Categories { get; set; }
         public Blog? Blog { get; set; }

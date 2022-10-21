@@ -34,6 +34,7 @@ namespace AgregaDotNet.Features.Posts
                     post.Summary = item.Summary.Text;
                     post.LastUpdatedTime = item.LastUpdatedTime;
                     post.PublishDate = item.PublishDate;
+                    post.PostDate = item.PublishDate.LocalDateTime;
                     post.Url = item.Links?.FirstOrDefault().Uri.ToString();
                     
                     foreach (var a in item.Authors)

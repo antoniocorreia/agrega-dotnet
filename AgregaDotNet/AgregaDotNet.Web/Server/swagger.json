@@ -424,6 +424,11 @@
             "type": "string",
             "nullable": true
           },
+          "postDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
           "authors": {
             "type": "array",
             "items": {
