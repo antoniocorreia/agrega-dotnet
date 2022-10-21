@@ -26,7 +26,7 @@ namespace AgregaDotNet.Features.Posts
                 XmlReader reader = XmlReader.Create(url);
                 SyndicationFeed feed = SyndicationFeed.Load(reader);
                 reader.Close();
-                foreach (SyndicationItem item in feed.Items)
+                foreach (SyndicationItem item in feed.Items.Take(3))
                 {
                     
                     Post post = new Post(blog);
@@ -34,6 +34,7 @@ namespace AgregaDotNet.Features.Posts
                     post.Summary = item.Summary.Text;
                     post.LastUpdatedTime = item.LastUpdatedTime;
                     post.PublishDate = item.PublishDate;
+                    post.PostDate = item.PublishDate.LocalDateTime;
                     post.Url = item.Links?.FirstOrDefault().Uri.ToString();
                     
                     foreach (var a in item.Authors)
@@ -50,7 +51,7 @@ namespace AgregaDotNet.Features.Posts
                 }
             }
 
-            return await Task.FromResult(posts);
+            return await Task.FromResult(posts.OrderByDescending(x=>x.PublishDate).ToList());
         }
         
     }
