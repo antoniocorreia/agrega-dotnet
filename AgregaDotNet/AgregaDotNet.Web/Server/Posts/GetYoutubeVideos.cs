@@ -38,48 +38,53 @@ namespace AgregaDotNet.Features.Posts
 
                     foreach (var channel in channelsListResponse.Items)
                     {
-                        // of videos uploaded to the authenticated user's channel.
-                        var uploadsListId = channel.ContentDetails.RelatedPlaylists.Uploads;
-#pragma warning disable CS0219 // The variable 'nextPageToken' is assigned but its value is never used
-                        var nextPageToken = "";
-#pragma warning restore CS0219 // The variable 'nextPageToken' is assigned but its value is never used
-                        //while (nextPageToken != null)
-                        //{
-                        var playlistItemsListRequest = yt.PlaylistItems.List("snippet");
-                        playlistItemsListRequest.PlaylistId = uploadsListId;
-                        playlistItemsListRequest.MaxResults = 5;
-                        //playlistItemsListRequest.PageToken = nextPageToken;
-                        // Retrieve the list of videos uploaded to the authenticated user's channel.
-                        var playlistItemsListResponse = playlistItemsListRequest.Execute();
-                        foreach (var playlistItem in playlistItemsListResponse.Items)
+                        try
                         {
-                            // Print information about each video.
-                            //Console.WriteLine("Video Title= {0}, Video ID ={1}", playlistItem.Snippet.Title, playlistItem.Snippet.ResourceId.VideoId);
-                            Post video = new Post(c);
-                            //video.VideoId = "https://www.youtube.com/embed/" + playlistItem.Snippet.ResourceId.VideoId;
-                            video.Id = playlistItem.Snippet.ResourceId.VideoId;
-                            video.Subject = playlistItem.Snippet.Title;
-                            video.Description = playlistItem.Snippet.Description;
-                            video.ImgUrl = playlistItem.Snippet.Thumbnails.High.Url;
-                            video.PublishDate = playlistItem.Snippet.PublishedAt.Value;
-                            video.Url = "https://www.youtube.com/watch?v=" + video.Id;
+                            // of videos uploaded to the authenticated user's channel.
+                            var uploadsListId = channel.ContentDetails.RelatedPlaylists.Uploads;
+                            var nextPageToken = "";
+                            //while (nextPageToken != null)
+                            //{
+                            var playlistItemsListRequest = yt.PlaylistItems.List("snippet");
+                            playlistItemsListRequest.PlaylistId = uploadsListId;
+                            playlistItemsListRequest.MaxResults = 3;
+                            //playlistItemsListRequest.PageToken = nextPageToken;
+                            // Retrieve the list of videos uploaded to the authenticated user's channel.
+                            var playlistItemsListResponse = playlistItemsListRequest.Execute();
+                            foreach (var playlistItem in playlistItemsListResponse.Items)
+                            {
+                                // Print information about each video.
+                                //Console.WriteLine("Video Title= {0}, Video ID ={1}", playlistItem.Snippet.Title, playlistItem.Snippet.ResourceId.VideoId);
+                                Post video = new Post(c);
+                                //video.VideoId = "https://www.youtube.com/embed/" + playlistItem.Snippet.ResourceId.VideoId;
+                                video.Id = playlistItem.Snippet.ResourceId.VideoId;
+                                video.Subject = playlistItem.Snippet.Title;
+                                video.Description = playlistItem.Snippet.Description;
+                                video.ImgUrl = playlistItem.Snippet.Thumbnails.High.Url;
+                                video.PublishDate = playlistItem.Snippet.PublishedAt.Value;
+                                video.PostDate = video.PublishDate.LocalDateTime;
+                                video.Url = "https://www.youtube.com/watch?v=" + video.Id;
 
-                            posts.Add(video);
+                                posts.Add(video);
+                            }
+                            //    nextPageToken = playlistItemsListResponse.NextPageToken;
+                            //}
+                        }catch(Exception ex)
+                        {
+                            continue;
                         }
-                        //    nextPageToken = playlistItemsListResponse.NextPageToken;
-                        //}
+
+
                     }
                 }
                 
             }
-#pragma warning disable CS0168 // The variable 'e' is declared but never used
             catch (Exception e)
-#pragma warning restore CS0168 // The variable 'e' is declared but never used
             {
                 return null;
             }
 
-            return await Task.FromResult(posts);
+            return await Task.FromResult(posts.OrderByDescending(x => x.PostDate.Value).ToList());
         }
     }
 }
