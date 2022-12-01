@@ -48,15 +48,12 @@
                         <div class="position-relative">
                             <img src="@blog.ImageUrl" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
                             <ul class="list-unstyled mb-0 team-icon">
-                                @*<li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="facebook" class="icons"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="instagram" class="icons"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="twitter" class="icons"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="linkedin" class="icons"></i></a></li>*@
-                            </ul><!--end icon-->
+                               
+                            </ul>
                         </div>
                         <div class="card-body py-3 px-0 content">
                             <h5 class="mb-0"><a href="#" class="name text-dark">@blog.Name</a></h5>
-                            @*<small class="designation text-muted">C.E.O</small>*@
+                           
                         </div>
                     </div>
                 </div>
@@ -70,8 +67,8 @@
                 <div class="section-title mb-4 pb-2">
                     <h4 class="title">Youtube Channels</h4>
                 </div>
-            </div><!--end col-->
-        </div><!--end row-->
+            </div>
+        </div>
 
         <div class="row">
             @foreach (var channel in channels)
@@ -81,15 +78,14 @@
                     <img src="@channel.ImageUrl" class="avatar avatar-medium rounded-circle img-thumbnail" alt="">
                     <div class="content ms-3">
                         <h5 class="mb-0"><a href="javascript:void(0)" class="text-dark">@channel.Name</a></h5>
-                        @*<small class="position text-muted">Professor</small>*@
                     </div>
                 </div>
-            </div><!--end col-->   
+            </div>
             }
-        </div><!--end row-->
-    </div><!--end container-->
-</section><!--end section-->
-<!-- Team Start -->
+        </div>
+    </div>
+</section>
+
 
 @code {
     ICollection<Blog> blogs = new List<Blog>();
