@@ -96,8 +96,8 @@
     {
         if (firstRender)
         {
-            blogs = await PublicApi().GetBlogsAsync();
-            channels = await PublicApi().GetChannelsAsync();
+            blogs = await Api.GetBlogsAsync();
+            channels = await Api.GetChannelsAsync();
             StateHasChanged();
         }
 

@@ -11,11 +11,16 @@
 @using Microsoft.JSInterop
 
 @using AgregaDotNetBlossom.Web
-@using AgregaDotNetBlossom.Web.Shared
 
-@using AgregaDotNetBlossom.Api
+@using System.ComponentModel.DataAnnotations
 
+@using Microsoft.Extensions.Configuration
+
+@using AgregaDotNetBlossom.Features
+@using AgregaDotNet.Razor.UI
+@using AgregaDotNet.Razor.UI.Shared
 @using Sparc.Core
+
 
 @using Blazored.Modal
 @using Blazored.Modal.Services
@@ -25,3 +30,6 @@
 @inject NavigationManager Nav
 @inject IConfiguration Config
 @inject IJSRuntime JS
+
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@attribute [AllowAnonymous]

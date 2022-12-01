@@ -2,14 +2,32 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NLW1F33G9J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-NLW1F33G9J');
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>AgregaDotNetBlossom</title>
+    <meta name="description" content="Multiplatform app aggregator of .NET content creators blogs and sites written in .NET MAUI + Blazor WebAssembly using Sparc Architecture templates with a shared UI between web and mobile projects">
+    <meta name="keywords" content=".NET, C#, Aggregator, Blogs, Sparc, MAUI">
     <base href="/" />
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/app.css" rel="stylesheet" />
+
+    <link href="/_content/AgregaDotNet.Razor.UI/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
+    <link href="/_content/AgregaDotNet.Razor.UI/libs/tobii/css/tobii.min.css" rel="stylesheet">
+    <link href="/_content/AgregaDotNet.Razor.UI/css/bootstrap.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
+    <link href="/_content/AgregaDotNet.Razor.UI/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="/_content/AgregaDotNet.Razor.UI/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+    <link href="/_content/AgregaDotNet.Razor.UI/css/style.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
+
+
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="AgregaDotNetBlossom.Web.styles.css" rel="stylesheet" />
+    
     <link href="manifest.json" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
@@ -30,7 +48,14 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
-    <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <!--<script>navigator.serviceWorker.register('service-worker.js');</script>-->
+    <!--<script src="_content/Microsoft.Authentication.WebAssembly.Msal/AuthenticationService.js"></script>-->
+    <script src="/_content/AgregaDotNet.Razor.UI/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/_content/AgregaDotNet.Razor.UI/libs/tiny-slider/min/tiny-slider.js"></script>
+    <script src="/_content/AgregaDotNet.Razor.UI/libs/tobii/js/tobii.min.js"></script>
+    <script src="/_content/AgregaDotNet.Razor.UI/libs/feather-icons/feather.min.js"></script>
+    <script src="/_content/AgregaDotNet.Razor.UI/js/plugins.init.js"></script>
+    <script src="/_content/AgregaDotNet.Razor.UI/js/app.js"></script>
 </body>
 
 </html>

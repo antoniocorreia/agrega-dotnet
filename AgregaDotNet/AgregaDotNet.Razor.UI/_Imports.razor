@@ -10,8 +10,11 @@
 @using AgregaDotNet.Razor.UI
 @using AgregaDotNet.Razor.UI.Shared
 
-@using AgregaDotNet.Features
+@using AgregaDotNetBlossom.Features
 @using Sparc.Core
 
-@inject AgregaDotNetApi Api
-@inject Public<AgregaDotNetApi> PublicApi
+
+@inject AgregaDotNetBlossomApi Api
+@inject NavigationManager Nav
+@*@inject IConfiguration Config*@
+@inject IJSRuntime JS

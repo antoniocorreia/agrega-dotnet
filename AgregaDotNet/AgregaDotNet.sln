@@ -2,22 +2,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgregaDotNet.Features", "AgregaDotNet.Web\Server\AgregaDotNet.Features.csproj", "{A51519B8-69AC-4E99-B2D9-06AE5E2DE480}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgregaDotNet.Web", "AgregaDotNet.Web\Client\AgregaDotNet.Web.csproj", "{5F0209B2-99F4-4BB7-8822-021B60AE14B8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgregaDotNet.Razor.UI", "AgregaDotNet.Razor.UI\AgregaDotNet.Razor.UI.csproj", "{3C7B0DC0-682E-4CB6-BC76-845BC18E984A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{D4E31E1A-A334-4990-B967-B1E34DA1DCFE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5DD2BEFF-4E91-4212-A3BF-2BE0BE7EBA8C}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgregaDotNetBlossom.Features", "AgregaDotNetBlossom\AgregaDotNetBlossom.Features\AgregaDotNetBlossom.Features.csproj", "{75598871-5B63-4DC5-9C72-DA185C1543CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgregaDotNetBlossom.Features", "AgregaDotNetBlossom\AgregaDotNetBlossom.Features\AgregaDotNetBlossom.Features.csproj", "{75598871-5B63-4DC5-9C72-DA185C1543CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgregaDotNetBlossom.Web", "AgregaDotNetBlossom\AgregaDotNetBlossom.Web\AgregaDotNetBlossom.Web.csproj", "{F1CB60E9-D85D-40C0-8D73-59F006715EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgregaDotNetBlossom.Web", "AgregaDotNetBlossom\AgregaDotNetBlossom.Web\AgregaDotNetBlossom.Web.csproj", "{F1CB60E9-D85D-40C0-8D73-59F006715EAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A51519B8-69AC-4E99-B2D9-06AE5E2DE480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A51519B8-69AC-4E99-B2D9-06AE5E2DE480}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A51519B8-69AC-4E99-B2D9-06AE5E2DE480}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A51519B8-69AC-4E99-B2D9-06AE5E2DE480}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F0209B2-99F4-4BB7-8822-021B60AE14B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F0209B2-99F4-4BB7-8822-021B60AE14B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F0209B2-99F4-4BB7-8822-021B60AE14B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F0209B2-99F4-4BB7-8822-021B60AE14B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3C7B0DC0-682E-4CB6-BC76-845BC18E984A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C7B0DC0-682E-4CB6-BC76-845BC18E984A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C7B0DC0-682E-4CB6-BC76-845BC18E984A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,9 +34,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{5F0209B2-99F4-4BB7-8822-021B60AE14B8} = {D4E31E1A-A334-4990-B967-B1E34DA1DCFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}

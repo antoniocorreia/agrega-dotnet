@@ -16,7 +16,7 @@
 
     protected async override Task OnInitializedAsync()
     {
-        posts = await PublicApi().GetBlogPostsAsync();
-        videos = await PublicApi().GetYoutubeVideosAsync();
+        posts = await Api.GetBlogPostsAsync();
+        videos = await Api.GetYoutubeVideosAsync();
     }
 }
